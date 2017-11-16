@@ -6,4 +6,8 @@
 
 擷圖
 
-元素面版是一個非常重要的面版，也是 Chrome 開發者工具很早期的時候就加入的面版之一。通常在你一打開開發者工具之後(在 Windows 可以用 F12 或 Control+Shift+I ，如果是在 Mac 可以用 Command+Option+I 來打開)，元素面版讓你可以觀察(inspect)及直接動態編輯(Live-edit)
+元素面版是一個非常重要的面版，也是 Chrome 開發者工具很早期的時候就加入的面版之一。通常在你一打開開發者工具之後(在 Windows 可以用 F12 或 Control+Shift+I ，如果是在 Mac 可以用 Command+Option+I 來打開)，元素面版讓你可以：
+- 查看(inspect)及動態編輯(Live-edit)文件物件模型，所以在編輯後是可以直接看到效果的，就像所見即所得編輯器(What You See Is What You Get)
+- 查看每個元素的樣式並動態編輯，它有一個自己的控制版(pane)，叫做樣式控制版(Styles pane)
+- 查看及動態編輯所選擇的元素的計算後的盒模型，它也有一個自己的控制版，叫做計算控制版(Computed pane)
+
