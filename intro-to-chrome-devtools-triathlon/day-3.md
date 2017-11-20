@@ -20,7 +20,7 @@
 
 擷圖
 
-控制台是一個有點像是 [REPL](https://zh.wikipedia.org/wiki/%E8%AF%BB%E5%8F%96%EF%B9%A3%E6%B1%82%E5%80%BC%EF%B9%A3%E8%BE%93%E5%87%BA%E5%BE%AA%E7%8E%AF) 的一個面版，你可以在這邊使用絕大部份的 JS 語法，並且可以立即看到執行後的效果。除此之外它也可以輸出程式中 `console.log` 的內容，是除錯的好幫手，也可以搭配元素面版及原始碼(Source)面版一起使用。
+控制台是一個有點像是 [REPL](https://zh.wikipedia.org/wiki/%E8%AF%BB%E5%8F%96%EF%B9%A3%E6%B1%82%E5%80%BC%EF%B9%A3%E8%BE%93%E5%87%BA%E5%BE%AA%E7%8E%AF) 的一個面版，你可以在這邊使用絕大部份的 JS 語法，並且可以立即看到執行後的效果。除此之外它也可以輸出程式中 `console.log` 的內容，是除錯的好幫手，也可以搭配元素面版及原始碼(Sources)面版一起使用。
 
 ## 網路面版 Network panel
 擷圖
