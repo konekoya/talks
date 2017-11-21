@@ -1,7 +1,7 @@
 
 # 開發者工具面版簡介2
 
-今天我們會再簡單的介紹幾個面版：原始碼、安全性、應用還有動畫。好，廢話不多說，就讓我們開始吧
+今天我們會再簡單的介紹幾個面版：原始碼、安全性、應用還有審查。好，廢話不多說，就讓我們開始吧
 
 ## 原始碼面版 Sources panel
 擷圖
@@ -20,7 +20,12 @@
 應用面版讓你可以查看及編輯及清除在前端應用的儲存方式及快取，像是：LocalStorage, sessionStorage, IndexedDB 及 cookies 等。在左邊 sidebar 中它也提供一個查看靜態資源的地方叫做 Frames (在網路面版或是原始碼也都有存取這些靜態資源的位置)，最後它也提供一個除錯漸進式網頁應用程式(progressive web apps, PWA)的功能。
 
 
-## 動畫面版 Animation panel
+## 審查面版 Audits panel
+擷圖
+
+審查面版做的事很有趣，它其實是有點像 Google 的 [PageSpeed Insigts](https://developers.google.com/speed/pagespeed/insights/?hl=zh-tw) 的功能，它會讓你知道你的網頁是不是有效能上的問題，有哪些最佳實踐(Best practices)是你可以做的，並告訴你實作的方法。算是一個網頁健檢的地方吧XD
+
+
 
 
 
