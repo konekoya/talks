@@ -25,7 +25,8 @@
 
 審查面版做的事很有趣，它其實是有點像 Google 的 [PageSpeed Insigts](https://developers.google.com/speed/pagespeed/insights/?hl=zh-tw) 的功能，它會讓你知道你的網頁是不是有效能上的問題，有哪些最佳實踐(Best practices)是你可以做的，並告訴你實作的方法。算是一個網頁健檢的地方吧XD
 
-
+## 小結
+今天我們很快的帶過了幾個面版，這些面版都是很重要的主要面版之一，除了安全性面版之外，其他的幾個面版我們在後面都會再花時間更進一步的說明如何來使用。
 
 
 
