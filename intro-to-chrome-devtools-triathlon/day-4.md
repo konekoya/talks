@@ -17,6 +17,10 @@
 ## 應用面版 Application panel
 擷圖
 
+應用面版讓你可以查看及編輯及清除在前端應用的儲存方式及快取，像是：LocalStorage, sessionStorage, IndexedDB 及 cookies 等。在左邊 sidebar 中它也提供一個查看靜態資源的地方叫做 Frames (在網路面版或是原始碼也都有存取這些靜態資源的位置)，最後它也提供一個除錯漸進式網頁應用程式(progressive web apps, PWA)的功能。
+
+
+## 動畫面版 Animation panel
 
 
 
