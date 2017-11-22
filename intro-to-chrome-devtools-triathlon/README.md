@@ -1,5 +1,5 @@
 
-# 認識開發者工具
+# 認識 Chrome 開發者工具
 這是一個系列文章，用來參加[第九屆的IT邦幫忙鐵人賽](https://ithelp.ithome.com.tw/ironman) 介紹 [Chrome 開發者工具](https://developer.chrome.com/devtools)。
 
 
@@ -11,20 +11,20 @@
     - 早期的除錯方式
     - Firebug 的出現
     - 現代開發者工具
-3. 開發者工具面版簡介 - 1
-   - element
-   - console
-   - network
-   - performance
-4. 開發者工具面版簡介 - 2
-   - source
-   - security
-   - application
-   - animation
+3. [開發者工具面版簡介 - 1](day-3.md)
+   - Elements panel
+   - Console
+   - Network panel
+   - Performance panel  
+4. [開發者工具面版簡介 - 2](day-4.md)
+   - Sources panel
+   - Security panel
+   - Application panel
+   - Audits panel
 5. 開發者工具面版簡介 - 3
-   - device mode
-   - memory
-   - and others
+   - Device mode
+   - Memory panel
+   - Others
 5. 開發者工具快捷鍵跟設定
 6. 元素面版 - 編輯 DOM
 7. 元素面版 - 編輯 CSS
