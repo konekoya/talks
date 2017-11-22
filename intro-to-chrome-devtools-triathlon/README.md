@@ -15,8 +15,8 @@
    - Elements panel
    - Console
    - Network panel
-   - Performance panel
-4.[開發者工具面版簡介 - 2](day-4.md)
+   - Performance panel  
+4. [開發者工具面版簡介 - 2](day-4.md)
    - Sources panel
    - Security panel
    - Application panel
