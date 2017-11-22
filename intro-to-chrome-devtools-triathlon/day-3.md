@@ -16,7 +16,7 @@
 - 查看及動態編輯所選擇的元素的計算後的盒模型，它也有一個自己的控制版，叫做計算控制版(Computed pane)
 
 
-## 控制台 Console panel
+## 控制台面版 Console panel
 
 擷圖
 
