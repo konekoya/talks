@@ -1,0 +1,15 @@
+{
+  "name": "an-intro-to-npm-and-js-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jquery-3.2.1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "konekoya <tank158r5155@yahoo.com.tw> (http://konekoya.github.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
