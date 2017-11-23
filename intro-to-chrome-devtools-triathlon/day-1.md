@@ -8,7 +8,7 @@
 
 ## 為什麼要用 Chrome 開發者工具來介紹
 
-![DevTools image](https://www.dropbox.com/s/5my4vfs1ah3z3mn/chrome-devtools-16x9.png?dl=0)
+![DevTools image](https://www.dropbox.com/s/5my4vfs1ah3z3mn/chrome-devtools-16x9.png?dl=1)
 
 而我們要使用的開發者工具是 Chrome 的開發者工具 (Chrome Developer Tools) 老外常簡寫為 devTools 。為什麼選擇 Chrome 呢？因為 Chrome 的開發者工具是我最熟悉的，再來就是 Chrome 的開發者工具演進的非常快，新功能是一直不斷的增加，老實說，它的介面也一直不變的在變化。但是我想就算你是使用其他的開發者工具像是 IE 或是 Firefox ，除了介面之外，很多功能及概念都是相同的。
 
