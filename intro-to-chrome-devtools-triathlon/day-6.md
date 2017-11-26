@@ -12,3 +12,4 @@
 - 進入原素面版 (Elements panel)，並檢查頁面上的原素： Mac 使用 `Command+Shift+C`， Windows 使用 `Control+Shift+C`
 - 搜尋面版： 我最常用於原素面版 (Elements panel) 及原始碼面版 (Sources panel)： Mac 使用 `Command+F`， Windows 使用 `Control+F`
   > 這個指令有幾個面版不支援：審查 (Audits) ，應用 (Application) 及安全性 (Security panels)
+- 進入偏好設定頁面：Mac 使用 `? or Function+F1`， Windows 使用 `? or F1`
