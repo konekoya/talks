@@ -16,5 +16,9 @@
 
 ## 偏好設定
 在這頁面中你可以調整很多設定來符合你個人的偏好，我會說明幾個我自己常用的。
-- 快觀 Appearance：
+- 快觀 (Appearance)：
     - 主題 Theme：主題有兩種可以選，如我個人偏好黑色的主題 (Dark) ，所以通常我會改成黑色的。如果想要其他主題，可以參考這個外掛 [DevTools Author](https://github.com/micjamking/devtools-author)
+
+- 原始碼 (Sources)：
+    - Enable JavaScript source maps：這應該是預設打開的，如果沒請記得打開，這樣可以讓你在除錯的時候可以看到還未打包成一個檔案前的檔案。如果你想了解更多關於，官方文件上[有一篇說明](https://developers.google.com/web/tools/chrome-devtools/javascript/source-maps)
+    - Enable CSS source maps：應該預設是打開的，這個也是最好要保持打開的選項，這個功能是當你使用一些預處理器 (Preprocessors) 像是 SCSS 的時候，可以在開發者工具裡看到編譯前的.scss 檔，而不是編譯完後的檔案。
