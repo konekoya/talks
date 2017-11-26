@@ -26,8 +26,11 @@
 - 原素 (Elements)：
     - Color format：預設是按照來源 (As authored)，你也可以改成你偏好的顏色模式像是 HEX 或是 RGB
 
-- 網路 (Newwork)
+- 網路 (Network)
     - Disable cache (while DevTools is open)：關閉快取這個功能我都會打開，在開發時如果快取沒有每次清，常常會遇到很怪的臭蟲，所以我強列建議一定要打開這個選項，這個功能只有在開發者工具是打開時才有效。
     
 - 控制台 (Console)
-    - Preserve log upon navigation ：這個功能讓你可以在切換不同頁面時仍然可以看到先前頁面的 logs ，除錯的時候很方便，但是通常我不會打開，有需要時才會打開，不然頁面會有一堆 logs
+    - Preserve log upon navigation：這個功能讓你可以在切換不同頁面時仍然可以看到先前頁面的 logs ，除錯的時候很方便，但是通常我不會打開，有需要時才會打開，不然頁面會有一堆 logs
+
+- 除錯 (Debugger)
+    - Disable JavaScript：關閉 JS，在除錯時，關閉 JS 可以讓你縮小錯誤範圍，知道說這個臭蟲是從 JS 來還是 CSS 來的(通常都是JS XD)，另外如果你有做像是伺服器端渲染 (Server side rendering) 的時候也可以拿來測試從伺服器那裡拿到的頁面是長怎麼樣子。
