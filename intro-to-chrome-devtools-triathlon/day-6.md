@@ -22,3 +22,12 @@
 - 原始碼 (Sources)：
     - Enable JavaScript source maps：這應該是預設打開的，如果沒請記得打開，這樣可以讓你在除錯的時候可以看到還未打包成一個檔案前的檔案。如果你想了解更多關於，官方文件上[有一篇說明](https://developers.google.com/web/tools/chrome-devtools/javascript/source-maps)
     - Enable CSS source maps：應該預設是打開的，這個也是最好要保持打開的選項，這個功能是當你使用一些預處理器 (Preprocessors) 像是 SCSS 的時候，可以在開發者工具裡看到編譯前的.scss 檔，而不是編譯完後的檔案。
+
+- 原素 (Elements)：
+    - Color format：預設是按照來源 (As authored)，你也可以改成你偏好的顏色模式像是 HEX 或是 RGB
+
+- 網路 (Newwork)
+    - Disable cache (while DevTools is open)：關閉快取這個功能我都會打開，在開發時如果快取沒有每次清，常常會遇到很怪的臭蟲，所以我強列建議一定要打開這個選項，這個功能只有在開發者工具是打開時才有效。
+    
+- 控制台 (Console)
+    - Preserve log upon navigation ：這個功能讓你可以在切換不同頁面時仍然可以看到先前頁面的 logs ，除錯的時候很方便，但是通常我不會打開，有需要時才會打開，不然頁面會有一堆 logs
