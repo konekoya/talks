@@ -15,16 +15,16 @@
 
 元素面版是一個非常重要的面版，也是 Chrome 開發者工具很早期的時候就加入的面版之一。通常在你一打開開發者工具之後(在 Windows 可以用 F12 或 Control+Shift+I ，如果是在 Mac 可以用 Command+Option+I 來打開)，元素面版讓你可以：
 
-- 查看(inspect)及動態編輯(Live-edit)文件物件模型，所以在編輯後是可以直接看到效果的，就像所見即所得編輯器(What You See Is What You Get)
-- 查看每個元素的樣式並動態編輯，它有一個自己的控制版(pane)，叫做樣式控制版(Styles pane)
-- 查看及動態編輯所選擇的元素的計算後的盒模型，它也有一個自己的控制版，叫做計算控制版(Computed pane)
+- 查看 (inspect) 及動態編輯 (Live-edit) 文件物件模型 (DOM)，所以在編輯後是可以直接看到效果的，就像所見即所得編輯器 (What You See Is What You Get)
+- 查看每個元素的樣式並動態編輯，它有一個自己的控制版 (pane)，叫做樣式控制版 (Styles pane)
+- 查看及動態編輯所選擇的元素的計算後的盒模型，它也有一個自己的控制版，叫做計算控制版 (Computed pane)
 
 
 ## 控制台面版 Console panel
 
 擷圖
 
-控制台是一個有點像是 [REPL](https://zh.wikipedia.org/wiki/%E8%AF%BB%E5%8F%96%EF%B9%A3%E6%B1%82%E5%80%BC%EF%B9%A3%E8%BE%93%E5%87%BA%E5%BE%AA%E7%8E%AF) 的一個面版，你可以在這邊使用絕大部份的 JS 語法，並且可以立即看到執行後的效果。除此之外它也可以輸出程式中 `console.log` 的內容，是除錯的好幫手，也可以搭配元素面版及原始碼(Sources)面版一起使用。
+控制台是一個有點像是 [REPL](https://zh.wikipedia.org/wiki/%E8%AF%BB%E5%8F%96%EF%B9%A3%E6%B1%82%E5%80%BC%EF%B9%A3%E8%BE%93%E5%87%BA%E5%BE%AA%E7%8E%AF) 的一個面版，你可以在這邊使用絕大部份的 JS 語法，並且可以立即看到執行後的效果。除此之外它也可以輸出程式中 `console.log` 的內容，是除錯的好幫手，也可以搭配元素面版及原始碼面版 (Sources panel) 一起使用。
 
 ## 網路面版 Network panel
 擷圖
