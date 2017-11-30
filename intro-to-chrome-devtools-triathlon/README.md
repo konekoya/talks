@@ -55,3 +55,7 @@
 29. real case - 1
 30. real case - 2
 31. concultion
+
+## 補完及修正
+- 加入一些 UI 操作的說明
+- 加入 DOM tree 的箭頭意思
