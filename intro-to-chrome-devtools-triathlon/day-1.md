@@ -17,7 +17,7 @@
 
 ## 會討論到的主題
 
-下面就是我們接下來三十天的主題列表：
+下面就是我們暫定接下來三十天的主題列表，之後有可能會再做調整，如果有任何更新的話我會再回來更新這個列表。
 
 1. 什麼是開發者工具
 2. 一點點前端除錯的歷史
@@ -27,26 +27,26 @@
 6. 開發者工具快捷鍵跟設定
 7. 元素面版 - 編輯 DOM
 8. 元素面版 - 編輯 CSS
-9. 元素面版 - computed, DOM breakpoints and the rest
-10. 元素面版 - animation
-11. work with console - 1
-12. work with console - 2
-13. device mode
-14. Application panel
-15. source panel - 中斷點
-16. source panel - 如何除錯
-17. source panel - 其他除錯技巧
-18. network panel - 1
-19. network panel - 2
-20. network panel - 3
-21. profile - 1
-22. profile - 2
-23. memory - 1
-24. memory - 2
-25. audits - 1
-26. audits - 2
-27. react devtools
-28. react perf
+9. 元素面版 - 編輯 DOM 1
+10. 元素面版 - 編輯 DOM 2
+11. 元素面版 - 編輯 CSS 1
+12. 元素面版 - 編輯 CSS 2
+13. work with console 1
+14. work with console 2
+15. device mode
+16. Application panel
+17. source panel - 中斷點
+18. source panel - 如何除錯
+19. source panel - 其他除錯技巧
+20. network panel - 1
+21. network panel - 2
+22. network panel - 3
+23. profile - 1
+24. profile - 2
+25. memory - 1
+26. memory - 2
+27. audits - 1
+28. audits - 2
 29. real case - 1
 30. real case - 2
 31. concultion
