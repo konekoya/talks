@@ -24,9 +24,9 @@
 ## 其他控制台
 剩下的幾個控制台，筆者我很少用到，所以我會很快的帶過，你如果想要更深入的了解，可以參考[官方文件](https://developers.google.com/web/tools/chrome-devtools/)。
 
-- DOM 元素中斷點：你可以透過新增 DOM 元素的中斷點來檢查特定事件 (Subtree modified, Node removed, Attribute modified)，官方文件裡有蠻[清楚的介紹](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/edit-dom#set_dom_breakpoints)。
+- 事件監聽器 (Event Listeners)：這裡會列出所有目前所選 DOM 元素被綁定的事件，在官方文件有[詳細的說明](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/edit-dom#view_element_event_listeners)。
+
+- DOM 元素中斷點 (DOM Breakpoints)：你可以透過新增 DOM 元素的中斷點來檢查特定事件 (Subtree modified, Node removed, Attribute modified)，官方文件裡有蠻[清楚的介紹](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/edit-dom#set_dom_breakpoints)。
 
 - 屬性控制台 (Properties pane)：當你選擇了一個 DOM 元素後，在這裡就會顯示出它所有的屬性。最下面的屬性就是這個元素的祖先，也就是說，它會繼承到一些祖先物件的屬性。最後的那個物件就是元素本身。我通常要檢查一個元素的屬性時都會直接把它印出來到控制台面版 (Console panel) 或是在中斷點時檢查，所以這一個控制台我很少使用。
-
-- 
 
