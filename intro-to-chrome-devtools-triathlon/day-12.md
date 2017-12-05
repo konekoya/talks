@@ -23,3 +23,5 @@ x = function() {
 
 x() // 會印出 Hello world from console!
 ```
+
+> 當你執行上面這一段程式後，除了會得到 `Hello world from console!` 在控制台面版中，應該還會得到一個 `undefined`，這是因為當呼叫一個方法時，控制台面版也會把這個方法的傳回值 (return) 回傳回來。而因為我們定義的方法 `x` 並沒傳回任何值，所以回傳的預設值就是 `undefined`
