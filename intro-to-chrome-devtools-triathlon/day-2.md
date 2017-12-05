@@ -1,6 +1,7 @@
 # 一點點前端除錯的歷史
 
 ![Software bug](https://www.dropbox.com/s/op0lcbvxuuqwkdp/bug.jpg?raw=1)
+> 在早期電腦中發現真正的臭蟲
 
 
 ## 較早期的除錯方式
