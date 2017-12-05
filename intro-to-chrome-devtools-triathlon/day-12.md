@@ -47,3 +47,9 @@ for (var i = 0; i < 5; i++) {
 ```js
 new Date().toLocaleString(); // 得到現在的時間 2017/12/6 上午6:32:23
 ```
+
+或甚至直接存取現在頁面的 DOM 元素
+```
+document.body // 整個 DOM 樹會印出來在面版中，並且可以展開及檢視
+```
+
