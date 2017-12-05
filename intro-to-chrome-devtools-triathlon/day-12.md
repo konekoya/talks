@@ -45,4 +45,5 @@ for (var i = 0; i < 5; i++) {
 
 當然你也可以使用原生的 JavaScript 方法，像是：
 ```js
-Date.now() //
+new Date().toLocaleString(); // 得到現在的時間 2017/12/6 上午6:32:23
+```
