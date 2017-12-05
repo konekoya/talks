@@ -27,7 +27,7 @@ myObj = {
 
 ## Firebug 的出現
 
-![Firebug 擷圖](https://www.dropbox.com/s/rdprcw28qbvf0p0/firebug-large.png?raw=1)
+![Firebug 擷圖](https://www.dropbox.com/s/rdprcw28qbvf0p0/firebug-large.png?raw=1)  
 之後，在 Firefox 上面出現了一個完全改變開發者除錯甚至開發方式的插件 (Add-ons)，那就是 [Firebug](https://getfirebug.com/) ， Firebug 提供一個類似現在開發者工具的介面，你可以在上面動態 (Live) 修改 HTML, CSS, 甚至 JS ，還記得那時候我跟同事們的開發方式從原本用編輯器來寫 CSS 然後再重整瀏覽器來看樣式套用後的效果改成直接寫在 Firebug 的編輯器裡，在看到樣子套用上去的效果之後，再把程式貼回編輯器裡，因為這樣的工作流程更快而且更準確，不需要去猜說，樣式套上去後會長怎樣。
 
 ## 現代開發者工具
