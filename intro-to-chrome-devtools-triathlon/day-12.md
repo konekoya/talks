@@ -1,4 +1,4 @@
-# 控制台面版 1 -  讀取-求值-輸出循環
+# 控制台面版 1 - 讀取-求值-輸出循環
 ![控制台擷圖]()
 
 今天我們要一起來討論的 Chrome 開發者工具的控制台面版 (Console panel)，這個面版我們在前面有很[簡單的介紹過](https://github.com/konekoya/talks/blob/master/intro-to-chrome-devtools-triathlon/day-3.md#%E6%8E%A7%E5%88%B6%E5%8F%B0%E9%9D%A2%E7%89%88-console-panel)，其實它就像是一個讀取-求值-輸出循環 (Read-Eval-Print Loop, REPL)，你可以在控制台裡面輸入 JavaScript 的指令，它就會執行並把內容印出來到控制台中。因為這一次的鐵人賽，我開始讀了一些官方的文件，發現控制台面版其實是很複雜的 (真的！相信我XD)，但是我用過的功能只有一小部份，所以我會針對我比較有了解的部份做介紹，剩下的，如果有興趣的朋友，可以到[官方文件](https://developers.google.com/web/tools/chrome-devtools/console/)去讀，我相信是可以挖到很多寶的。
@@ -57,5 +57,7 @@ document.body // 整個 DOM 樹會印出來在面版中，並且可以展開及�
 
 > 我們明天會再介紹如果透過控制台面版提供的一些 API 來快速的選取 DOM 元素
 
+# 小結
+我們今天很簡單的介紹了控制台面版的讀取-求值-輸出循環功能，就像你所看到的，你可以在控制台面版裡執行大部份的 JavaScript 程式 (當然是前提 Chrome 要有支援，一些太新的 ES 規範就不保證有支援) 並且馬上看到執行的結果。常常我會用這個面版來執行一些程式片段，比如說在 [stackoverflow](https://stackoverflow.com/) 上看到別人的解法，想要驗證一下程式執行的結果，如果不是太複雜的程式，我們就不用再打開文字編輯器或是像 [codepen](https://codepen.io/) 或 [jsbin](https://jsbin.com/) 的工具來執行。而是直接貼到控制台面版就可以啦。是不是很方便呢？明天我們會接著介紹一些這個面版所提供的 API 還有它如何跟元素面版一起結合使用。
 
 
