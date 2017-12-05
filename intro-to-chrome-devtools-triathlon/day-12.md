@@ -1,4 +1,4 @@
-# 控制台面版 1
+# 控制台面版 1 -  讀取-求值-輸出循環
 ![控制台擷圖]()
 
 今天我們要一起來討論的 Chrome 開發者工具的控制台面版 (Console panel)，這個面版我們在前面有很[簡單的介紹過](https://github.com/konekoya/talks/blob/master/intro-to-chrome-devtools-triathlon/day-3.md#%E6%8E%A7%E5%88%B6%E5%8F%B0%E9%9D%A2%E7%89%88-console-panel)，其實它就像是一個讀取-求值-輸出循環 (Read-Eval-Print Loop, REPL)，你可以在控制台裡面輸入 JavaScript 的指令，它就會執行並把內容印出來到控制台中。因為這一次的鐵人賽，我開始讀了一些官方的文件，發現控制台面版其實是很複雜的 (真的！相信我XD)，但是我用過的功能只有一小部份，所以我會針對我比較有了解的部份做介紹，剩下的，如果有興趣的朋友，可以到[官方文件](https://developers.google.com/web/tools/chrome-devtools/console/)去讀，我相信是可以挖到很多寶的。
@@ -26,11 +26,17 @@ x() // 會印出 Hello world from console!
 
 > 當你執行上面這一段程式後，除了會得到 `Hello world from console!` 在控制台面版中，應該還會得到一個 `undefined`，這是因為當呼叫一個方法時，控制台面版也會把這個方法的傳回值 (return) 回傳回來。而因為我們定義的方法 `x` 並沒傳回任何值，所以回傳的預設值就是 `undefined`
 
+![結果擷圖]()
+
 進行到這邊我想你會發現，其實我們可以用這個讀取-求值-輸出循環來做很多事。沒錯，常常我會用它來寫一些 JavaScript，來快速的知道某些程式是不是按照我所想的邏輯運作。
 
 你也可以寫像是迴圈這種比較複雜的程式
 ```js
+// 印出 "Hello world from console!" 五次
 for (var i = 0; i < 5; i++) {
   console.log('Hello world from console!')
 }
 ```
+
+> 如果印出的訊息是重覆的，控制台面版會幫你整理成一個集合。
+![for 迴圈擷圖]()
