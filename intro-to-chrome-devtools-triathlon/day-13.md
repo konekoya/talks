@@ -40,7 +40,7 @@ $('#main') // <main id="main" tabindex="-1">
 #### $$(選取器)
 這個與我們剛剛介紹的 `$()` API 很像，只是它背後是呼叫 `document.querySelectorAll()` ，所以它是可以一次選取多個元素的。以剛剛的 `$(div)` 例子，改成 `$$(div)` 我們就會得到所有的 div 元素。我再一起來看一個例子：
 
-```
+```js
 var anchors = $$('a'); // 選取頁面上所有的 a 元素
 anchors.forEach(a => console.log(a.href)) // 印出所有連結元素的連結
 
