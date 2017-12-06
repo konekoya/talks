@@ -24,3 +24,16 @@ $1 // <div class="footer container-lg p-responsive mt-6" role="contentinfo">
 $2 // <body class="logged-out env-production page-responsive min-width-0 f4" data-gr-c-s-loaded="true">
 ```
 
+#### $(選取器)
+如果有用過 jQuery 的朋友，應該對種選擇方式不漠生，但這個 API 跟 jQuery 的 `$()` 是有點差異的。在這裡它背後其實是呼叫 `document.querySelector()` 這個 DOM API ，所以如果我們用 `$('div')` 來選擇頁面上的 div 元素，如果這個頁面上有多個 div 元素，它就只會回傳第一個。下面再舉幾個例子
+
+```js
+// 一般的元素
+$('body') // <body class="homepage enhanced js" id="home" data-gr-c-s-loaded="true">
+
+// class
+$('.main-header') // <header class="main-header block">
+
+// ID
+$('#main') // <main id="main" tabindex="-1">
+```
