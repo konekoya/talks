@@ -45,3 +45,11 @@ var anchors = $$('a'); // 選取頁面上所有的 a 元素
 anchors.forEach(a => console.log(a.href)) // 印出所有連結元素的連結
 
 ```
+
+#### copy
+有時候當你選取了某個元素後，你想要拷貝它就可以用這個指令，並且可以用快捷鍵 (Mac Cmd+V 或 Windows Ctrl+V) 來貼到像是文字編輯器等工具裡面。
+```js
+// 假設 $0 是 body 元素，你就可以拷貝包含它所有子孫元素的 DOM 樹
+copy($0)
+```
+
