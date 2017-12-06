@@ -8,7 +8,7 @@
 
 ## 元素面版 Elements panel
 
-擷圖
+![元素面版擷圖](https://www.dropbox.com/s/i135yjo4qex76vq/element.jpg?raw=1)
 
 元素面版是一個非常重要的面版，也是 Chrome 開發者工具很早期的時候就加入的面版之一。通常在你一打開開發者工具之後 ( 在 Windows 可以用 F12 或 Control+Shift+I ，如果是在 Mac 可以用 Command+Option+I 來打開 )，元素面版讓你可以：
 
@@ -18,7 +18,7 @@
 
 ## 控制台面版 Console panel
 
-擷圖
+![控制台面版擷圖](https://www.dropbox.com/s/q6k6wsznmkrbswg/console.jpg?raw=1)
 
 控制台面版是一個有點像是
 [REPL](https://zh.wikipedia.org/wiki/%E8%AF%BB%E5%8F%96%EF%B9%A3%E6%B1%82%E5%80%BC%EF%B9%A3%E8%BE%93%E5%87%BA%E5%BE%AA%E7%8E%AF)
@@ -26,13 +26,13 @@
 
 ## 網路面版 Network panel
 
-擷圖
+![網路面版擷圖](https://www.dropbox.com/s/duu7i0du3saade7/network.jpg?raw=1)
 
 網路面版可以讓你查看所有透過 HTTP 上傳及下載的要求，也可以看到頁面整體的載入所花的時間，甚至詳細的知道每一個資源載入的時間點。所以透過網路面版你可以輕易解你的頁面與伺服器的互動狀況。
 
 ## 效能面版 Performance panel
 
-擷圖
+![效能面版擷圖](https://www.dropbox.com/s/aj4hkhtmy7r489q/performance.jpg?raw=1)
 
 效能面版之前原本叫做 Timeline，但是在一次的改版中改掉了。這一個面版應該是所有面版中最複雜、功能最多的一個面版。簡單的來說，它是一個可以讓你檢查及了解頁面的渲染效能的工具。你可以查看頁面是不是有記憶體洩漏，CUP 的使用狀況，甚至什麼時候有GC(Garbage collection) 它都知道。所以當你想要調校你的網頁效能時，這會是一個很方便的工具。
 
