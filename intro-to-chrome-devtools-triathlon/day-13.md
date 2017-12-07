@@ -54,7 +54,7 @@ copy($0)
 ```
 
 #### clear
-清除所有在控制台中的資訊，這個功能是個方法，跟一般 Linux Terminal 裡的 Clear 不一樣，是需要呼叫的
+清除所有在控制台中的資訊，這個功能是個方法，跟一般 Linux Terminal 裡的 `clear` 不一樣，是需要呼叫才能使用
 ```js
 clear()
 ```
