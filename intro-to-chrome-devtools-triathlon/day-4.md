@@ -18,7 +18,7 @@ debugging, 像是走進某個方法裡或是跳過等可以讓你更方便除錯
 
 ## 安全性面版 Security panel
 
-![原始碼面版擷圖](https://www.dropbox.com/s/fnti3as4n84tyx4/security.jpg?raw=1)
+![安全性面版擷圖](https://www.dropbox.com/s/fnti3as4n84tyx4/security.jpg?raw=1)
 
 
 這個面版算是一個很簡單的面版，它可以讓你知道這個網站是否安全，而這邊的安全指的是
@@ -33,7 +33,7 @@ certificate) 裡看這個網站所用
 
 ## 應用面版 Application panel
 
-![原始碼面版擷圖](https://www.dropbox.com/s/9958867zyaxayva/application.jpg?raw=1)
+![應用面版擷圖](https://www.dropbox.com/s/9958867zyaxayva/application.jpg?raw=1)
 
 
 應用面版讓你可以查看及編輯及清除在前端應用的儲存方式及快取，像是：LocalStorage,
@@ -43,7 +43,7 @@ sessionStorage, IndexedDB 及 cookies 等。在左邊 sidebar 中它也提供一
 
 ## 審查面版 Audits panel
 
-![原始碼面版擷圖](https://www.dropbox.com/s/p2mqy6yrs42p2aa/souces.jpg?raw=1)
+![審查面版擷圖](https://www.dropbox.com/s/ptgu7v1qkr5z1vu/audits.jpg?raw=0)
 
 
 審查面版做的事很有趣，它其實是有點像 Google 的
