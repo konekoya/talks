@@ -27,3 +27,16 @@
 
 我自己在測試時其實比較常用的是 Resposive 這個模式，這個選項打開後，畫面的右邊會多了一個可以左右拖拉的 Bar ，你可以透過它來改變螢幕尺寸。
 
+## 更多選項
+在行動裝置工具欄右方有一個三個小點的更多選項，裡面有一些選項是我們可以使用的，我簡單的介紹一下：
+- Show device frame: 顯示裝置的外框，不是每個裝置都有，加上去後看起來比較像真的一點。
+- Show media queries: 顯
+- Show rulers: 加上尺規，加上去後我覺得很干擾，所以我很少用XD
+- Add device pixel ratio: 顯示裝置的 DPI
+- Add device type: 加上去後，可以在 Responsive 模式下選用一些不同的模式
+- Capture screenshot: 螢幕擷圖(可視範圍)
+- Capture full size screenshot: 螢幕擷圖(完整頁面)
+- Resets to defaults: 把行動裝置工具欄重設回初始值
+
+
+## 小結
