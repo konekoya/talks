@@ -31,6 +31,11 @@ certificate) 裡看這個網站所用
 及憑證的類型。如果要看更詳細的內容就可以點查看憑證 (View certificate)，這個面版
 的主要功能就是這樣，因為這個面版實在太簡單的，我們接下來就不會再花時間介紹它。
 
+![查看憑證頁面擷圖](https://www.dropbox.com/s/9bz3nlpxr3ap2yj/security-detail.jpg?raw=1)
+
+> 查看憑證頁面，這是 IT 邦幫忙的 CA 
+
+
 ## 應用面版 Application panel
 
 ![應用面版擷圖](https://www.dropbox.com/s/9958867zyaxayva/application.jpg?raw=1)
