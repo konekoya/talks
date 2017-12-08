@@ -16,6 +16,7 @@
 其他的工具沒有在預設的面版當中，你可以在開發者工具的右上角的三點小點圖示上 ![更多選項擷圖](https://www.dropbox.com/s/4hgosdq1e86gp0f/three-dots.jpg?raw=1) 用滑鼠右鍵點擊一下中打開下拉選單，然後再打開 More tools ，我們要介紹的這邊工具就會在這選單裡
 
 ![下拉選單擷圖](https://www.dropbox.com/s/dsnpsqxaeo6nm8j/more-options-dropdown.jpg?raw=1)
+> 這一個選單也可以在控制台抽屜 (Console drawer) 左上角找到，並且打開一樣的選單
 
 * 動畫 Animation: 你可以查看及除錯你的頁面動畫，這個工具配合樣式控制版 (Styles pane) 一起使用就很方便，你可以看到你寫的動畫樣式及它執行的方式。
 ![動畫工具擷圖](https://www.dropbox.com/s/f3chrbsciekpgjg/animation.jpg?raw=1)
