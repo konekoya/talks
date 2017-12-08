@@ -22,11 +22,14 @@
 
 
 * 覆蓋率 Coverage: 這是一個才剛剛加入 Chrome 的新功能 ( 在 Chrome 59 加入 )，你可以透過這個功能看到在這個頁面中，有那邊 CSS 跟 JS 是沒有使用到的，算是一個很有趣的功能。
-![動畫工具擷圖](https://www.dropbox.com/s/93rylr0rezdaiai/coverage.jpg?raw=1)
+![覆蓋率工具擷圖](https://www.dropbox.com/s/93rylr0rezdaiai/coverage.jpg?raw=1)
 
 
 * 渲染 Rendering: 這個工具讓你可以檢查目前頁面在進行一些操作時的繪制時間 (Paint time)，像是在畫面捲動時或是一些 UI 操作像是滑鼠事件或 CSS 動畫，這些操作產生的重新繪制都會讓使用者的體驗變差，所以使用這個工具可以檢測那些頁面上的元素正在大量重新繪制，讓頁面顯示速度變差。
-![動畫工具擷圖](https://www.dropbox.com/s/cruz8bhmxxakelc/rendering.jpg?raw=1)
+![渲染工具擷圖](https://www.dropbox.com/s/cruz8bhmxxakelc/rendering.jpg?raw=1)
+
+![Overlay擷圖](https://www.dropbox.com/s/c5qceg3t3j665xz/rendering-overlay.jpg?raw=1)
+> 開發者工具會在頁面上動態顯示目前頁面渲染所使用的資源及其他狀態
 
 ## 小結
 
