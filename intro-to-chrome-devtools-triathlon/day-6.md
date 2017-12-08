@@ -1,6 +1,5 @@
 # 開發者工具快捷鍵跟設定
 
-![設定頁面擷圖](https://www.dropbox.com/s/dp3sgpx2a6w7lwk/settings.jpg?raw=1)
 
 ## 幾個常用的快捷鍵
 
@@ -29,7 +28,10 @@
 
 ## 偏好設定
 
-在這頁面中你可以調整很多設定來符合你個人的偏好，我會說明幾個我自己常用的。
+![設定頁面擷圖](https://www.dropbox.com/s/dp3sgpx2a6w7lwk/settings.jpg?raw=1)
+
+在這頁面中你可以調整很多設定來符合你個人的偏好，我會說明幾個我自己常用的，開啟設定頁面的方式：在使用開發者工具的右上角的三點小點圖示上 ![更多選項擷圖](https://www.dropbox.com/s/4hgosdq1e86gp0f/three-dots.jpg?raw=1) 用滑鼠左鍵點擊一下打開下拉選單
+
 
 * 快觀 (Appearance)：
 
