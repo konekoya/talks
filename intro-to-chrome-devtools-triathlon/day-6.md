@@ -1,6 +1,6 @@
 # 開發者工具快捷鍵跟設定
 
-設定擷圖
+![設定頁面擷圖](https://www.dropbox.com/s/dp3sgpx2a6w7lwk/settings.jpg?raw=1)
 
 ## 幾個常用的快捷鍵
 
