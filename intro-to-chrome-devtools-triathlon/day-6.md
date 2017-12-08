@@ -3,7 +3,7 @@
 
 ## 幾個常用的快捷鍵
 
-在這裡我想分享幾個我最常用到的快捷鍵，強迫自己使用快捷鍵可以讓自己的工作速度提昇，強列建議大家可以把你常用的快捷鍵背起來。如果你想要找特定的快捷鍵，官方文件有所有可用[快捷鍵的列表](https://developers.google.com/web/tools/chrome-devtools/shortcuts)。
+在這裡我想分享幾個我最常用到的快捷鍵，強迫自己使用快捷鍵可以讓自己的工作速度提昇，強列建議大家可以把你常用的快捷鍵背起來。如果你想要找特定的快捷鍵，官方文件有所有可用[快捷鍵的列表](https://developers.google.com/web/tools/chrome-devtools/shortcuts)。而在開發者工具裡也有快捷鍵的列表，我們下面會提到。
 
 > 我們今天介紹的快捷鍵是全域 (Global) 的，有些快捷鍵是在特定的面版才有，這些快捷鍵我們會留著等在介紹各別面版時一起介紹
 
@@ -23,15 +23,20 @@
 
 在這頁面中你可以調整很多設定來符合你個人的偏好，我會說明幾個我自己常用的，開啟設定頁面的方式：在使用開發者工具的右上角的三點小點圖示上 ![更多選項擷圖](https://www.dropbox.com/s/4hgosdq1e86gp0f/three-dots.jpg?raw=1) 用滑鼠左鍵點擊一下打開下拉選單，然後再從選單中選擇 Settings。
 
-眼尖的朋友應該也有看到，除了 Settings 外，這個下拉選單裡還有一些其他選項：
-- Dock side:
-- Hide console drawer
-- Search all files:
-- Open file:
-- More tools: 
-- Shortcuts
-- Settings: 
-- Help: 
+眼尖的朋友應該也有看到，除了 Settings 外，這個下拉選單裡還有一些其他選項，下面我們就來介紹一下：  
+
+![更多選項擷圖](https://www.dropbox.com/s/vzucxz0eie28950/more-options.jpg?raw=1)
+
+- Dock side: 選擇開發工具在頁面上的位置，依序是：獨立視窗、在畫面的左邊、在畫面下面、在畫面右邊
+- Hide console drawer: 這我們前面有提過，可以在任何面版中打開控制台抽屜，我通常都用快捷鍵 ESC 開關
+- Search all files: 全域搜尋，我沒有用過這個功能，因為各個面版都有自己的搜尋工具可以用
+- Open file: 打開檔案，這個我也沒用過，通常需要打開檔案的時機都在原始碼面版，我們後面會介紹
+- More tools: 我們昨天有一起看過這個選項裡的一些功能
+- Shortcuts: 所有開發者工具內可用的快捷鍵
+- Settings: 我們下面會介紹
+- Help: 幫助，通常我都直接 Google 比較快XD
+
+下面我們就開始介紹設定的部份：
 
 * 快觀 (Appearance)：
 
