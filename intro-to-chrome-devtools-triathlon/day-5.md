@@ -18,6 +18,8 @@
 ![下拉選單擷圖](https://www.dropbox.com/s/dsnpsqxaeo6nm8j/more-options-dropdown.jpg?raw=1)
 
 * 動畫 Animation: 你可以查看及除錯你的頁面動畫，這個工具配合樣式控制版 (Styles pane) 一起使用就很方便，你可以看到你寫的動畫樣式及它執行的方式。
+![下拉選單擷圖](https://www.dropbox.com/s/f3chrbsciekpgjg/animation.jpg?raw=1)
+
 
 * 覆蓋率 Coverage: 這是一個才剛剛加入 Chrome 的新功能 ( 在 Chrome 59 加入 )，你可以透過這個功能看到在這個頁面中，有那邊 CSS 跟 JS 是沒有使用到的，算是一個很有趣的功能。
 
