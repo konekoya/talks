@@ -48,14 +48,12 @@
     > 編輯 DOM 標籤
 
 * 編輯標籤屬性：就像編輯標籤一下，在所要編輯的屬性上滑鼠左鍵連點兩下後就可以直接編輯那個屬性。另外也可以使用鍵盤的 Return 或 Enter 鍵來編輯屬性，然後使用 Tab 鍵來做屬性的切換。  
+  ![編輯屬性擷圖](https://www.dropbox.com/s/1q9v1kl9puf27bm/edit%20mode.jpg?raw=1)  
 
-![編輯屬性擷圖](https://www.dropbox.com/s/1q9v1kl9puf27bm/edit%20mode.jpg?raw=1)  
-
-> 編輯 DOM 元素屬性
+  > 編輯 DOM 元素屬性
   
 * 新增屬性：在被選取的元素上滑鼠右鍵打開更多動作選單 (More actions menu) 然後選擇新增屬性 (Add attribute)，然後再輸入新屬性就可以了。你也可以在編輯元素標籤時，直接把屬性寫上去。  
-
-![新增屬性擷圖](https://www.dropbox.com/s/0b5wo1l8ng0gusj/add-attr.jpg?raw=1)  
+  ![新增屬性擷圖](https://www.dropbox.com/s/0b5wo1l8ng0gusj/add-attr.jpg?raw=1)  
     
   > 透過新增一個 DOM 元素屬性
     
