@@ -51,13 +51,13 @@
 
 ![編輯屬性擷圖](https://www.dropbox.com/s/1q9v1kl9puf27bm/edit%20mode.jpg?raw=1)  
 
-    > 編輯 DOM 元素屬性
+> 編輯 DOM 元素屬性
   
 * 新增屬性：在被選取的元素上滑鼠右鍵打開更多動作選單 (More actions menu) 然後選擇新增屬性 (Add attribute)，然後再輸入新屬性就可以了。你也可以在編輯元素標籤時，直接把屬性寫上去。  
 
 ![新增屬性擷圖](https://www.dropbox.com/s/0b5wo1l8ng0gusj/add-attr.jpg?raw=1)  
     
-    > 透過新增一個 DOM 元素屬性
+  > 透過新增一個 DOM 元素屬性
     
 * 刪除屬性的方式與編輯標籤屬性雷同，在選擇該屬性後把屬性跟值一起清掉就可以了。
 
