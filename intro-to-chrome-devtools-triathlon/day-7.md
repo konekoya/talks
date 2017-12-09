@@ -21,7 +21,7 @@
   的[快捷鍵](https://github.com/konekoya/talks/blob/master/intro-to-chrome-devtools-triathlon/day-6.md#%E5%B9%BE%E5%80%8B%E5%B8%B8%E7%94%A8%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%8D%B5)) 來找你所想要選取的特定元素。
 ![使用搜尋擷圖](https://www.dropbox.com/s/zcsgid4luxmt73p/search.jpg?raw=1)
 
-* 打開開發者工具並切換到元素面版後，使用在面版左側的工具 - 檢查元素模式 (Inspect Element Mode) 來選擇。當你進入這個模式後，在頁面移動時就會看到正在選擇的區塊，然在按下滑鼠左鍵後，該元素就會被選取並顯示在元素面版裡。
+* 打開開發者工具並切換到元素面版後，使用在面版左側的工具 - 檢查元素模式 (Inspect Element Mode) ![檢查元素模式擷圖](https://www.dropbox.com/s/wm4zg1crwv9dbjc/inspect-el-tool.jpg?raw=1) 來選擇。當你進入這個模式後，在頁面移動時就會看到正在選擇的區塊，然在按下滑鼠左鍵後，該元素就會被選取並顯示在元素面版裡。
 
 * 最後一個方法是當你在元素面版的文件物件模型樹狀圖中 (DOM tree view) 使用鍵盤上的方向鍵來做操作。
 
