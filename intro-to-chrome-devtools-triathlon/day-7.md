@@ -13,12 +13,13 @@
 在編輯某個特定元素時，我們首先要做的第一件事就是先找到這個元素的 DOM，我們可以透過幾個方法來達成這件事：
 
 * 在頁面中所要編輯的元素的畫面上按滑鼠右鍵，在選單中選擇檢查。這時候，你的開發者工具就會打開到元素面版並且指到你所選擇的元素上。
-![被選取的元素](https://www.dropbox.com/s/l6x4feo5ts4rabs/selected-el.jpg?raw=1)
+![被選取的元素擷圖](https://www.dropbox.com/s/l6x4feo5ts4rabs/selected-el.jpg?raw=1)
 
   > 有時候因為頁面的結構關係，這個方式並不一定可以準確選擇到你所指定的元素
 
-* 假如你知道你所要選擇的元素的 ID 或是 class，那你其實可以在打開開發者工具並切換到元素面版後，使用搜尋的功能 ( 請參考上篇提到
+* 假如你知道你所要選擇的元素的 ID 或是 class 或甚至 HTML 標籤名稱，那你其實可以在打開開發者工具並切換到元素面版後，使用搜尋的功能 ( 請參考上篇提到
   的[快捷鍵](https://github.com/konekoya/talks/blob/master/intro-to-chrome-devtools-triathlon/day-6.md#%E5%B9%BE%E5%80%8B%E5%B8%B8%E7%94%A8%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%8D%B5)) 來找你所想要選取的特定元素。
+![使用搜尋擷圖](https://www.dropbox.com/s/zcsgid4luxmt73p/search.jpg?raw=1)
 
 * 打開開發者工具並切換到元素面版後，使用在面版左側的工具 - 檢查元素模式 (Inspect Element Mode) 來選擇。當你進入這個模式後，在頁面移動時就會看到正在選擇的區塊，然在按下滑鼠左鍵後，該元素就會被選取並顯示在元素面版裡。
 
