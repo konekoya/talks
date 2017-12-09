@@ -30,6 +30,12 @@
     - 方向鍵右：如果你所選擇的 DOM 元素有子元素(當元素左邊有這一個向右箭頭圖示時![子元素箭頭擷圖](https://www.dropbox.com/s/v8zve55sslckpl3/dom-arrow.jpg?raw=1)，代表這個 DOM 元素下還有子元素 )，就會向下移動到子元素，如果沒有子元素就不會有動作。
     - 方向鍵左：如果你所選擇的 DOM 元素有父元素(當元素左邊有一個向下箭頭圖示時![父元素箭頭擷圖](https://www.dropbox.com/s/xhbjrx0c4vvjxbw/dom-arrow-parent.jpg?raw=1)代表這個元素是父元素，可以往上收合)，就會向上移動到父元素，如果沒有父元素就不會有動作。
 
+* 最後一個方法是使用元素面版左下方一個類似麵包屑的介面  
+
+![麵包屑介面擷圖](https://www.dropbox.com/s/p8oip8h4nayw200/breadcrume.jpg?raw=1) 
+
+上面提到了很多方法你可以選取 DOM 元素，我自己本人比較常用的是檢查元素模式及搭配鍵盤的方向鍵快速的移動。通常這樣都可以很快的找到你想要的元素。
+
 ## 編輯元素
 
 > 所有的編輯在頁面重新整理後都會消失，這些編輯後的內容都不會存在你的原始碼裡面，> 除非你做了[特殊設定](https://developers.google.com/web/tools/setup/setup-workflow)
