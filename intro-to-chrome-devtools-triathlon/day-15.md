@@ -3,6 +3,7 @@
 在 HTML5 的標準裡面，加入了很多以前所沒有的前端儲存方式像是 Local and session storage, IndexedDB 等等。而 Chrome 開發者工具為了方便開發者可以存取及編輯這些儲存方式，提供了一個應用面版 (Application panel)，今天我們要來介紹如果透過這個面版來檢查、修改及刪除這些儲存方式，但我們會主要針對 Local storage 及 cookies，其他的幾個儲存方式我沒有使用過，如果你想更深入的了解，你可以在官方文件裡找到[使用說明](https://developers.google.com/web/tools/chrome-devtools/manage-data/local-storage)。
 
 ## 應用面版介面簡介
+應用面版是兩欄式的介面，左邊有所有可選用的項目，點選後，右邊的欄位就會顯現選項內容。
 
 
 ## 檢視及編輯 Local storage
@@ -15,3 +16,9 @@
 - 新增一筆資料：在資料列表的最下方空白處用滑鼠連點兩下就可以新增一筆新的資料 
 
 > 上述的新增、刪除、尋找及編輯的功能其實也都可以透過 JavaScript 來完成，如果你打開控制台抽屜 (Console drawer)，直接使用 HTML API 來操作，這些操作的結果都會立即更新到 Local storage 列表中
+
+
+## 檢視及編輯 cookies
+
+
+## 小結
