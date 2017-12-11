@@ -19,7 +19,17 @@
 
 
 ## 檢視及編輯 cookies
+從左邊的側欄打開 Cookies 後，它一樣會有網域列表，選取你想要檢視的網域後，就會看到在這個網域中所有有用到的 cookies 列表。這個列表裡有幾個項目：
+- Name: cookie 的名稱
+- Value: cookie 的值
+- Domain: cookie 的 domain
+- path: cookie 的路徑
+- Expires/ Maximum Age: cookie 到期時間
+- Size: cookie 的大小
+- HTTP: 如果這個值是勾選的，那這個值無法透過 JavaScript 直接做修改
+- Secure: 這個 cookie 需要透過加密連結來做傳輸
 
+cookie 的編輯、刪除、新增方式都與上面提到的 Local storage 相同，所以在這邊我們就不再做說明。
 
 ## 清除所有儲存及快取
 如果你想一次清除所有前端所使用到的儲存資料及快取，你可以透過 Clear storage 來完成。在選取 Clear storage 後，在列表中選取你想清除的項目，然後使用 Clear site data 來清除所有的儲存資料。
