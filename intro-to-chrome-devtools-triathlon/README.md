@@ -28,13 +28,14 @@
    * Memory panel
    * Others
 6. [開發者工具快捷鍵跟設定](day-6.md)
-7. 元素面版 - 編輯 DOM
-8. 元素面版 - 編輯 CSS
-9. 元素面版 - computed, DOM breakpoints and the rest
-10. 元素面版 - animation
-11. work with console - 1
-12. work with console - 2
-13. device mode
+7. [元素面版 - 動態編輯文件物件模型 1](day-7.md)
+8. [元素面版 - 動態編輯文件物件模型 2](day-8.md)
+9. [元素面版 - 檢查元素樣式](day-9.md)
+10. [元素面版 - 動態編輯樣式](day-10.md)
+11. [元素面版 - 運算及其他的幾個控制台](day-11.md)
+12. [控制台面版 1 - 讀取-求值-輸出循環](day-12.md)
+13. [控制台面版 2 - 結合元素面版](day-13.md)
+14. [行動裝置工具欄](day-14.md)
 14. Application panel
     * cookies
     * localStorage
