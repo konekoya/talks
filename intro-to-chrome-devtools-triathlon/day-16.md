@@ -9,5 +9,47 @@
 
 ![原始碼面版簡介擷圖]
 
-## 使用中斷點
-會不會使用中斷點是一個很重要的技巧，當你知道怎麼使用中斷點後，要找到程式中的臭蟲就相對簡單很多。我們今天要使用來除錯的範例是官方文件裡提供的一個 Deom 網頁，我本來是想要一樣用 IT邦的網頁來做介紹，但是怕這樣原始碼內容太多而且複雜，並且網頁有更新的可能，所以最後決定就用官方的文件 Demo
+## 使用中斷點 (Breakpoints)
+會不會使用中斷點是一個很重要的技巧，當你知道怎麼使用中斷點後，要找到程式中的臭蟲就相對簡單很多。我們今天要使用來除錯的範例是官方文件裡提供的一個 [Demo 網頁](https://googlechrome.github.io/devtools-samples/debug-js/get-started)，我本來是想要一樣用 IT邦的網頁來做介紹，但是怕這樣原始碼內容太多而且複雜，並且網頁有更新的可能，所以最後決定就用官方的文件 Demo
+
+### 設定一個中斷點
+在 JS 中，要設定一個中斷點，可以使用 `debugger` 這個關鍵字 (Statement)，如下：
+```js
+const name = 'Joshua';
+
+debugger; // 在 runtime 中，當程式執行到這裡時，就會停住
+console.log(`Hey ${name}`);
+
+```
+
+使用中斷點的時候要注意幾件事：
+首先，你的程式需要被**執行到**，不然中斷點並不會被執行，所以下面這段程式的中斷點是不會被觸發的。
+
+```js
+const greet = name => {
+  debugger
+  console.log(`Hey ${name}`);
+}
+
+console.log('App is ready!');
+
+```
+
+有看出來為什麼嗎？因為 `greet` 方法沒有被執行，所以 `debugger` 自然沒有被觸發，所以假設我們有 `if` 判斷式：
+```js
+const isReady = true;
+const name = 'Joshua';
+
+if (isReady) {
+  console.log(`Hey ${name}`);
+} else {
+  debugger;
+  console.log(`Oops, I'm not ready yet!`);
+}
+
+console.log('App is ready!');
+```
+
+上面這一段程式一樣不會觸發 `debugger`，所以我們可以清楚的知道，你的 `debugger` 要放在可以被觸發的位置。
+
+好，除了要注意這件事之外，在使用中斷點時，你的開發者工具一定要是開著，不然瀏覽器是不會有任何動作的。
