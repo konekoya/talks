@@ -12,9 +12,10 @@
 
 ![樣式排序擷圖](https://www.dropbox.com/s/g2u507v0rijsyq2/from-top-to-bottom.jpg?raw=1)
 
-- 有衝突的樣式：在看過幾個元素的樣式後，你一定會看到一些元素的某個樣式定義是被劃掉的，這是代表這個樣式的定義與其他的樣式定義有衝突，而最後因為這個定義的權重 (Specificity) 比較低，所以就沒有套用到這個元素上。另一種同樣會被劃掉的樣式是不正確的樣式屬性 (Property) 或是值 (value) ，也就是說樣式寫錯了XD，瀏覽器沒辦法成功的渲染它，所以它會跳過。而這種不正確的樣式前還會多有一個警示小圖示。
-  ![有衝突的樣式擷圖](https://www.dropbox.com/s/qa7iagqibn2s49w/css-conflict.jpg?raw=1)
-  > 有衝突而被蓋過的樣式
+- 有衝突的樣式：在看過幾個元素的樣式後，你一定會看到一些元素的某個樣式定義是被劃掉的，這是代表這個樣式的定義與其他的樣式定義有衝突，而最後因為這個定義的權重 (Specificity) 比較低，所以就沒有套用到這個元素上。另一種同樣會被劃掉的樣式是不正確的樣式屬性 (Property) 或是值 (value) ，也就是說樣式寫錯了XD，瀏覽器沒辦法成功的渲染它，所以它會跳過。而這種不正確的樣式前還會多有一個警示小圖示。  
+
+  ![有衝突的樣式擷圖](https://www.dropbox.com/s/qa7iagqibn2s49w/css-conflict.jpg?raw=1)  
+  > 有衝突而被蓋過的樣式
 
   > 如果你不知道 CSS 權重是什麼，強烈建議你一定要了解一下，這是 CSS 的核心概念之一，MDN上有一篇說明[權重的文件](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Specificity)
 
