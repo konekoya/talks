@@ -60,6 +60,7 @@ console.log('App is ready!');
 
 1. 請先連到官方的 [Demo 網頁](https://googlechrome.github.io/devtools-samples/debug-js/get-started)
 2. 打開開發者工具並切換到原始碼面版 (Sources)
-3. 在左邊的檔案瀏覽控制台中找到一個叫做 **get-started.js** 的檔案。它會藏在 devtools/samples/debug-js 下面，你可以展開上面幾層的結構後找到它。這邊你也可以透過檔案瀏覽控制台的打開檔案來快速搜尋來找到你想要找的檔案：用滑鼠左鍵點一下檔案瀏覽控制台右上方的三個小點圖示，在下拉選單中選擇 Open file ，這時候你應該會看到一個快速搜尋的視窗，在裡面輸入你想要打開的檔案名稱就可以了。也可以用快速鍵打開 (Mac Cmd + P, Windows Ctrl + P)  
+3. 在左邊的檔案瀏覽控制台中找到一個叫做 **get-started.js** 的檔案。它會藏在 devtools/samples/debug-js 下面，你可以展開上面幾層的結構後找到它。  
+這邊你也可以透過檔案瀏覽控制台的打開檔案來快速搜尋來找到你想要找的檔案：用滑鼠左鍵點一下檔案瀏覽控制台右上方的三個小點圖示，在下拉選單中選擇 Open file ，這時候你應該會看到一個快速搜尋的視窗，在裡面輸入你想要打開的檔案名稱就可以了。也可以用快速鍵打開 (Mac Cmd + P, Windows Ctrl + P)  
     ![快速搜尋視窗擷圖]  
     **圖2**：快速搜尋視窗
