@@ -16,6 +16,9 @@
 
   ![有衝突的樣式擷圖](https://www.dropbox.com/s/qa7iagqibn2s49w/css-conflict.jpg?raw=1)  
   > 有衝突而被蓋過的樣式
+  
+  ![不正確的樣式擷圖](https://www.dropbox.com/s/np7y8sv5mpl0sys/invalid-styles.jpg?raw=1)  
+  > 不正確的樣式  
 
   > 如果你不知道 CSS 權重是什麼，強烈建議你一定要了解一下，這是 CSS 的核心概念之一，MDN上有一篇說明[權重的文件](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Specificity)
 
