@@ -64,12 +64,15 @@ console.log('App is ready!');
 這邊你也可以透過檔案瀏覽控制台的打開檔案來快速搜尋來找到你想要找的檔案：用滑鼠左鍵點一下檔案瀏覽控制台右上方的三個小點圖示，在下拉選單中選擇 Open file ，這時候你應該會看到一個快速搜尋的視窗，在裡面輸入你想要打開的檔案名稱就可以了。也可以用快速鍵打開 (Mac Cmd + P, Windows Ctrl + P)  
     ![快速搜尋視窗擷圖]  
     **圖2**：快速搜尋視窗
-4. 在打開 **get-started.js** 後，在程式編輯控制台裡你應該就會看到它所有的 JS 程式碼，程式編輯控制台的左邊，會有一排行號，請移動到行號 `34` 的最後方 (也就是 `{` 括號的後面)，按下鍵盤上的 enter 鍵來換行，並在新的一行中加上 `debugger`，完成後的程式碼應該像這樣：
+4. 在打開 **get-started.js** 後，在程式編輯控制台裡你應該就會看到它所有的 JS 程式碼，程式編輯控制台的左邊，會有一排行號，請移動到行號 `32` 的最後方 (也就是 `{` 括號的後面)，按下鍵盤上的 enter 鍵來換行，並在新的一行中加上 `debugger`，完成後的程式碼應該像這樣：
 
 ```js
-function getNumber1() {
+function updateLabel() {
+  var addend1 = getNumber1();
+  var addend2 = getNumber2();
+  var sum = addend1 + addend2;
+  label.textContent = addend1 + ' + ' + addend2 + ' = ' + sum;
   debugger; // 新增一個 debugger 在這裡
-  return inputs[0].value;
 }
 ```
 在確定程式正確後，請儲存檔案(Mac Cmd + S, Windows Ctrl + S)，然後回到頁面上，在 **Number 1** 跟 **Number 2** 這兩個輸入框裡輸入任意的數字後，按下 **Add Number 1 and Number 2** 這個按鈕。這時候你的程式就會停在中斷點上。
