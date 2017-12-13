@@ -9,8 +9,8 @@ Talks and writings that I've given at various events
   A talk which I've given at is-land talking about how npm and modern frontend toolings
   has dramatically changed our development process.
 
-> This talk is greately inspired by Peter Jang's phenomenon article
-> [Modern JavaScript Explained For Dinosaurs](https://medium.com/@peterxjang/modern-javascript-explained-for-dinosaurs-f695e9747b70)
+  > This talk is greately inspired by Peter Jang's phenomenon article
+  > [Modern JavaScript Explained For Dinosaurs](https://medium.com/@peterxjang/modern-javascript-explained-for-dinosaurs-f695e9747b70)
 
 * [intro-to-chrome-devtools-triathlon](https://github.com/konekoya/talks/tree/master/intro-to-chrome-devtools-triathlon)
 
