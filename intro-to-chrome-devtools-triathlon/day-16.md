@@ -68,7 +68,7 @@ console.log('App is ready!');
 
 ```js
 function getNumber1() {
-  debugger;
+  debugger; // 新增一個 debugger 在這裡
   return inputs[0].value;
 }
 ```
