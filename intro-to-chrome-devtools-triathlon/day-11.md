@@ -7,7 +7,7 @@
 編輯它的長、寬，它的 margin, padding 還有 border 等。
 
 ![運算控制台擷圖](https://www.dropbox.com/s/ucj255cg4q2ed03/computed-pane.jpg?raw=1)  
-**圖1: 運算控制台介面**
+**圖 1: 運算控制台介面**
 
 在控制台的下方列出來的是"運算"過後的元素樣式。是什麼意思呢？這是說我們現在所選取的這一個元素最終被套上去的所有樣式。如果你還記得
 我們前面有提到，當樣式發生衝突時，瀏覽器會透過權重 (specificity) 來計算哪一個樣式會勝出並最終被套用。所以在這裡列出來的樣式，就都是最後勝出套用上，稱為運算後的樣式。
@@ -15,13 +15,13 @@
 
 在每個樣式屬性中如果有一個可以打開的箭頭小圖示![更多擷圖](https://www.dropbox.com/s/lw931xw4tqh2cgs/more.jpg?raw=1) ，它會列出所有的衝突列表並最後套用上去的是什麼，如果你點用滑鼠左鍵點選這個值，開發者工具就會帶你到樣式控制台的那個屬性宣告中，很方便吧，快速又精確。而在屬性值後面也會列出來源的樣式表，點選後就會直接轉跳到原始碼面版的樣式宣告中。
 
-![樣式列表擷圖](https://www.dropbox.com/s/x7xk7mu14wy7ocv/details.jpg?raw=1) 
-**圖2: 打開屬性箭頭後，可以看到所有衝突列表**
+![樣式列表擷圖](https://www.dropbox.com/s/x7xk7mu14wy7ocv/details.jpg?raw=1)  
+**圖 2: 打開屬性箭頭後，可以看到所有衝突列表**
 
 除此之外你可以使用右上方的顯示全部 (Show all) 來打開所有的樣式屬性及值。這裡所列出來的就會包含所有預設可用的屬性及值 (這些屬性會用較淡的顏色來表示)。這個功能通常我會關掉不然屬性太多了，有時候很難找到我想要找並且是有使用到的屬性。
 
-![顯示全部擷圖](https://www.dropbox.com/s/ce75d6imjf8780q/show-all.jpg?raw=1) 
-**圖3: 顯示全部的樣式屬性**
+![顯示全部擷圖](https://www.dropbox.com/s/ce75d6imjf8780q/show-all.jpg?raw=1)   
+**圖 3: 顯示全部的樣式屬性**
 
 如果你要找特定的屬性宣告，你也可以透過上方的過濾器功能 (Filter) 來快速搜尋。
 
@@ -30,16 +30,16 @@
 剩下的幾個控制台，筆者我很少用到，所以我會很快的帶過，你如果想要更深入的了解，可以參考[官方文件](https://developers.google.com/web/tools/chrome-devtools/)。
 
 - 事件監聽器 (Event Listeners)：這裡會列出所有目前所選 DOM 元素被綁定的事件，在官方文件有[詳細的說明](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/edit-dom#view_element_event_listeners)。
-![事件監聽器](https://www.dropbox.com/s/nzsmpjtjenwy3rn/event.jpg?raw=1) 
-**圖4: 事件監聽器**
+![事件監聽器](https://www.dropbox.com/s/nzsmpjtjenwy3rn/event.jpg?raw=1)  
+**圖 4: 事件監聽器**
 
 - DOM 元素中斷點 (DOM Breakpoints)：你可以透過新增 DOM 元素的中斷點來檢查特定事件 (Subtree modified, Node removed, Attribute modified)，官方文件裡有蠻[清楚的介紹](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/edit-dom#set_dom_breakpoints)。
-![DOM 元素中斷點擷圖](https://www.dropbox.com/s/axxyruyexat6qpp/breakpoints.jpg?raw=1) 
-**圖5: DOM 元素中斷點**
+![DOM 元素中斷點擷圖](https://www.dropbox.com/s/axxyruyexat6qpp/breakpoints.jpg?raw=1)   
+**圖 5: DOM 元素中斷點**
 
 - 屬性控制台 (Properties pane)：當你選擇了一個 DOM 元素後，在這裡就會顯示出它所有的屬性。最下面的屬性就是這個元素的祖先，也就是說，它會繼承到一些祖先物件的屬性。最後的那個物件就是元素本身。我通常要檢查一個元素的屬性時都會直接把它印出來到控制台面版 (Console panel) 或是在中斷點時檢查，所以這一個控制台我很少使用。
-![屬性控制台擷圖](https://www.dropbox.com/s/3evi7kmzt60r0z8/props.jpg?raw=1) 
-**圖6: 屬性控制台**
+![屬性控制台擷圖](https://www.dropbox.com/s/3evi7kmzt60r0z8/props.jpg?raw=1)   
+**圖 6: 屬性控制台**
 
 ## 小結
 今天就算是元素面版的總結啦，我們花了好幾天的時間一起討論了 DOM 元素的新增、編輯、修改及刪除還有移動。而這些編輯都是即時的 (Live)，可以馬上在瀏覽器裡就看到修改後的畫面。另一部份是樣式的編輯及檢視，樣式編輯跟 DOM 元素的很大的不同在於：樣式常常會有衝突，而且很多東西是繼承的，所以在修改時要先花點時間來找到你要修改的特定宣告。今天我們也花了點時間介紹幾個剩下的控制台，很多是筆者我不太熟悉也很少用的，所以我都有補上連結，希望可以幫助到想要更深入了解的人。
