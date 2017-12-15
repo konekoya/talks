@@ -16,6 +16,10 @@
 
 你可以用這個面版來做數值的運算，就像是在 JavaScript 裡一樣：在面版中輸入 `5+5` 再按下 enter 鍵你應該會得到 `10` ，結果應該會出現在輸入的程式正下方。題外話一下，我常常用控制台來做我的小算盤XD
 
+
+![5+5在控制台輸出的結果擷圖](https://www.dropbox.com/s/hnwwayx5bk0plgk/5%2B5.jpg?raw=1)  
+**圖 3**: 5+5 在控制台輸出的結果
+
 你可以宣告變數，重新指定值 (assign)：
 ```js
 // 宣告一個算數
@@ -29,12 +33,11 @@ x = function() {
 x(); // 會印出 Hello world from console!
 ```
 
-![5+5在控制台輸出的結果擷圖](https://www.dropbox.com/s/hnwwayx5bk0plgk/5%2B5.jpg?raw=1)  
-**圖 3**: 5+5 在控制台輸出的結果
 
 > 當你執行上面這一段程式後，除了會得到 `Hello world from console!` 在控制台面版中，應該還會得到一個 `undefined`，這是因為當呼叫一個方法時，控制台面版也會把這個方法的傳回值 (return) 回傳回來。而因為我們定義的方法 `x` 並沒傳回任何值，所以回傳的預設值就是 `undefined`
 
-![結果擷圖]()
+![Hello-world結果擷圖](https://www.dropbox.com/s/dtuecpak37w20l7/hello-world.jpg?raw=1)  
+**圖 4**: `x()` 執行後的結果
 
 進行到這邊我想你會發現，其實我們可以用這個讀取-求值-輸出循環來做很多事。沒錯，常常我會用它來寫一些 JavaScript，來快速的知道某些程式是不是按照我所想的邏輯運作。
 
@@ -47,19 +50,23 @@ for (var i = 0; i < 5; i++) {
 ```
 
 > 如果印出的訊息是重覆的，控制台面版會幫你整理成一個集合。
-![for 迴圈擷圖]()
+![for迴圈結果擷圖](https://www.dropbox.com/s/j6gncr2s1ts9eki/for.jpg?raw=1)  
+**圖 5**: `for` 迴圈執行後的結果
 
 當然你也可以使用原生的 JavaScript 方法，像是：
 ```js
 new Date().toLocaleString(); // 得到現在的時間 2017/12/6 上午6:32:23
 ```
-![Date 擷圖]()
+![new-Date結果擷圖](https://www.dropbox.com/s/x9hcgmu2k6isxfa/date.jpg?raw=1)  
+**圖 6**: `new Date()` 執行後的結果
 
 或甚至直接存取現在頁面的 DOM 元素
+
 ```js
 document.body // 整個 DOM 樹會印出來在面版中，並且可以展開及檢視
 ```
-![DOM 擷圖]()
+![document-body結果擷圖](https://www.dropbox.com/s/8d6frx5kgli7sbx/dom.jpg?raw=1)  
+**圖 7**: `document.body` 執行後的結果
 
 > 我們明天會再介紹如果透過控制台面版提供的一些 API 來快速的選取 DOM 元素
 
