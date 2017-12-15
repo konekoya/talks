@@ -50,14 +50,14 @@ for (var i = 0; i < 5; i++) {
 ```
 
 > 如果印出的訊息是重覆的，控制台面版會幫你整理成一個集合。
-![for迴圈結果擷圖](https://www.dropbox.com/s/j6gncr2s1ts9eki/for.jpg?raw=1)  
+![for迴圈結果擷圖](https://www.dropbox.com/s/j6gncr2s1ts9eki/for.jpg?raw=1)  
 **圖 5**: `for` 迴圈執行後的結果
 
 當然你也可以使用原生的 JavaScript 方法，像是：
 ```js
 new Date().toLocaleString(); // 得到現在的時間 2017/12/6 上午6:32:23
 ```
-![new-Date結果擷圖](https://www.dropbox.com/s/x9hcgmu2k6isxfa/date.jpg?raw=1)  
+![new-Date結果擷圖](https://www.dropbox.com/s/x9hcgmu2k6isxfa/date.jpg?raw=1)  
 **圖 6**: `new Date()` 執行後的結果
 
 或甚至直接存取現在頁面的 DOM 元素
@@ -65,7 +65,7 @@ new Date().toLocaleString(); // 得到現在的時間 2017/12/6 上午6:32:23
 ```js
 document.body // 整個 DOM 樹會印出來在面版中，並且可以展開及檢視
 ```
-![document-body結果擷圖](https://www.dropbox.com/s/8d6frx5kgli7sbx/dom.jpg?raw=1)  
+![document-body結果擷圖](https://www.dropbox.com/s/8d6frx5kgli7sbx/dom.jpg?raw=1)  
 **圖 7**: `document.body` 執行後的結果
 
 > 我們明天會再介紹如果透過控制台面版提供的一些 API 來快速的選取 DOM 元素
