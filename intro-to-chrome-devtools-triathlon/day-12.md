@@ -50,6 +50,7 @@ for (var i = 0; i < 5; i++) {
 ```
 
 > 如果印出的訊息是重覆的，控制台面版會幫你整理成一個集合。
+
 ![for迴圈結果擷圖](https://www.dropbox.com/s/j6gncr2s1ts9eki/for.jpg?raw=1)  
 **圖 5**: `for` 迴圈執行後的結果
 
