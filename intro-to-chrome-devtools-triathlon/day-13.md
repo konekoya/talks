@@ -31,7 +31,12 @@ $2 // <body data-gr-c-s-loaded="true">...</body>
 **圖 2: $0, $1 $2 顯示拜訪過的元素**
 
 #### $(選取器)
-如果有用過 jQuery 的朋友，應該對種選擇方式不漠生，但這個 API 跟 jQuery 的 `$()` 是有點差異的。在這裡它背後其實是呼叫 `document.querySelector()` 這個 DOM API ，所以如果我們用 `$('div')` 來選擇頁面上的 div 元素，如果這個頁面上有多個 div 元素，它就只會回傳第一個。下面再舉幾個例子
+如果有用過 jQuery 的朋友，應該對種選擇方式不漠生，但這個 API 跟 jQuery 的 `$()` 是有點差異的。在這裡它背後其實是呼叫 `document.querySelector()` 這個 DOM API ，所以如果我們用 `$('div')` 來選擇頁面上的 div 元素，如果這個頁面上有多個 div 元素，它就只會回傳第一個。但因為iT幫邦忙的頁面有用到 jQuery ，所以 `$` 這個符號已經被註冊過了，所以我們在開始使用前要重新把它指回去 
+```js
+$ = document.querySelector.bind(document)
+```
+
+在指定完後，我們就可以用 `$` 來做元素的查找：
 
 ```js
 // 一般的元素
@@ -43,6 +48,9 @@ $('.main-header') // <header class="main-header block">
 // ID
 $('#main') // <main id="main" tabindex="-1">
 ```
+![使用$(選取器)擷圖](https://www.dropbox.com/s/1m4p33j5zqy2kl4/queryselector.jpg?raw=1)  
+**圖 3: 使用 `$(選取器)`**
+
 #### $$(選取器)
 這個與我們剛剛介紹的 `$()` API 很像，只是它背後是呼叫 `document.querySelectorAll()` ，所以它是可以一次選取多個元素的。以剛剛的 `$(div)` 例子，改成 `$$(div)` 我們就會得到所有的 div 元素。我再一起來看一個例子：
 
