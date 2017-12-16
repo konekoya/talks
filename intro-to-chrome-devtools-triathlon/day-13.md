@@ -13,7 +13,7 @@
 使用 $_ 後，我們就會再一次得到 12 這個結果，如下圖：
 
 ![再執行一次上一次的指令擷圖](https://www.dropbox.com/s/t4rq3p6s6otxskd/redo-the-command.jpg?raw=1)  
-**圖 1: $_ 可以再執行一次上一次的指令**
+**圖 1**: $_ 可以再執行一次上一次的指令**
 
 #### $0 - $4
 這個指令讓你可以得到你曾經在元素面版中拜訪過的元素的 DOM，什麼意思呢？就是當你使用滑鼠或是鍵盤在元素面版的 DOM 樹中移動時，開發者工具會記住最接近你的五次操作的元素，而這些 DOM 元素可以透過 $0 - $4 來在控制台中存取，我們來看個例子
@@ -28,7 +28,7 @@ $2 // <body data-gr-c-s-loaded="true">...</body>
 ```
 
 ![顯示拜訪過的元素擷圖](https://www.dropbox.com/s/5cstj5yf6sb8tn6/remember-dom.jpg?raw=1)  
-**圖 2: $0, $1 $2 顯示拜訪過的元素**
+**圖 2**: $0, $1 $2 顯示拜訪過的元素**
 
 #### $(選取器)
 如果有用過 jQuery 的朋友，應該對種選擇方式不漠生，但這個 API 跟 jQuery 的 `$()` 是有點差異的。在這裡它背後其實是呼叫 `document.querySelector()` 這個 DOM API ，所以如果我們用 `$('div')` 來選擇頁面上的 div 元素，如果這個頁面上有多個 div 元素，它就只會回傳第一個。但因為iT幫邦忙的頁面有用到 jQuery ，所以 `$` 這個符號已經被註冊過了，所以我們在開始使用前要重新把它指回去 
@@ -51,7 +51,7 @@ $('#main')
 上面查詢的結果如下圖  
 
 ![使用$(選取器)擷圖](https://www.dropbox.com/s/1m4p33j5zqy2kl4/queryselector.jpg?raw=1)  
-**圖 3: 使用 `$(選取器)`**
+**圖 3**: 使用 `$(選取器)`**
 
 #### $$(選取器)
 這個與我們剛剛介紹的 `$()` API 很像，只是它背後是呼叫 `document.querySelectorAll()` ，所以它是可以一次選取多個元素的。以剛剛的 `$(div)` 例子，改成 `$$(div)` 我們就會得到所有的 div 元素。我再一起來看一個例子：
@@ -62,7 +62,7 @@ anchors.forEach(a => console.log(a.href)); // 印出所有連結元素的連結
 
 ```
 ![印出所有頁面上連結的href)擷圖](https://www.dropbox.com/s/lp66it6n68wn4ew/queryselectorall.jpg?raw=1)  
-**圖 4: 印出所有頁面上連結元素的 href**
+**圖 4**: 印出所有頁面上連結元素的 href**
 
 
 #### copy
@@ -81,7 +81,7 @@ clear()
 在結束之前還要再提到一個功能，我偶爾會用到。這個功能叫做**保存頁面 log 資訊** `Preserve log` 。它藏在控制台面版的設定裡，你可以透過面版右上角的![設定擷圖](https://www.dropbox.com/s/j8ir6ndxma77w4v/settings.jpg?raw=1)來打開它。打開下拉選單後，請選擇勾選 `Preserve log` 選項，之後當你在不同頁面做瀏覽時，它會幫你保存所有的 log 檔案。
 
 ![使用 Preserve log)擷圖](https://www.dropbox.com/s/5c9rvzrolkmhl1h/preserve-log.jpg?raw=1)  
-**圖 5: 使用 Preserve log 功能**
+**圖 5**: 使用 Preserve log 功能**
 
 ## 小結
 我們今天介紹了幾個常見及常用的 API，而且這些 API 大部份是可以與元素面版做結合使用的。透過這些 API 你可以更快速的找到你想要操作的 DOM 元素，然後直接在控制台面版中編輯及改變它，要記得你得到的這些元素的操作會直接反應在頁面上。配合我們前幾天介紹的元素面版，你現在已經有完整的元素及樣式操作的工具，在不離開瀏覽器的情況下，你也可以操作及改變頁面上許多介面的畫面及結構。有覺得很強大嗎XD，好，不說廢話了。今天所介紹的這些控制台面版 API 是我自己本身比較常用的，如果你想要了解更多，你可以到[官網的文件](https://developers.google.com/web/tools/chrome-devtools/console/)上去看。接下來我們要一
