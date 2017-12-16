@@ -20,9 +20,12 @@
   ![Responsive mode 擷圖](https://www.dropbox.com/s/4s6brzkdwkhu33p/responsive-mode.jpg?raw=1)  
   **圖 3**: 在Responsive 模式下可以自由的調整裝置尺寸，方便做 RWD 測試
   
-- 裝置寬高：在下拉選單的右邊有目前選用裝置的寬及高度
-- 放大及縮小百分比：百分比下拉選單可以用來放大及縮小目前的螢幕，我通常都使用預設值，不會做調整。
-- 旋轉螢幕：使用旋轉選項，你可以切換螢幕成是直立 (Portrait mode) 的瀏覽或是橫式 (Landscape mode) 的，在測試的時候很方便。
+- 裝置寬高：在裝置下拉選單的右邊有目前選用裝置的寬及高度，如果你是使用 Responsive mode, 它的寬及高可以自由輸入做調整  
+
+- 放大及縮小百分比：百分比下拉選單可以用來放大及縮小目前的螢幕，我通常都使用預設值，不會做調整。  
+  ![調整螢幕縮放百分比擷圖](https://www.dropbox.com/s/t8z7q5hwbkdtdqu/zoom.jpg?raw=1)  
+  **圖 4**: 調整螢幕縮放百分比
+- 旋轉螢幕：使用右上角的旋轉選項小圖示![旋轉螢幕圖示擷圖](https://www.dropbox.com/s/ew1det542uvr3xh/rotate-icon.jpg?raw=1)，你可以切換螢幕成是直立 (Portrait mode) 的瀏覽或是橫式 (Landscape mode) 的，在測試的時候很方便。
   > 如果你使用 Responsive 模式， Rotate 這個選項就不可以使用了
 - 網路速度：這裡面有幾個選項
     - online: 正常網路速度
