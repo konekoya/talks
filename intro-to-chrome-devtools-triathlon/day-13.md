@@ -40,14 +40,16 @@ $ = document.querySelector.bind(document)
 
 ```js
 // 一般的元素
-$('body') // <body class="homepage enhanced js" id="home" data-gr-c-s-loaded="true">
+$('body') 
 
 // class
-$('.main-header') // <header class="main-header block">
+$('.main-header') 
 
 // ID
-$('#main') // <main id="main" tabindex="-1">
+$('#main')
 ```
+上面查詢的結果如下圖  
+
 ![使用$(選取器)擷圖](https://www.dropbox.com/s/1m4p33j5zqy2kl4/queryselector.jpg?raw=1)  
 **圖 3: 使用 `$(選取器)`**
 
@@ -56,9 +58,12 @@ $('#main') // <main id="main" tabindex="-1">
 
 ```js
 var anchors = $$('a'); // 選取頁面上所有的 a 元素
-anchors.forEach(a => console.log(a.href)) // 印出所有連結元素的連結
+anchors.forEach(a => console.log(a.href)); // 印出所有連結元素的連結
 
 ```
+![印出所有頁面上連結的href)擷圖](https://www.dropbox.com/s/lp66it6n68wn4ew/queryselectorall.jpg?raw=1)  
+**圖 4: 印出所有頁面上連結元素的 href**
+
 
 #### copy
 有時候當你選取了某個元素後，你想要拷貝它就可以用這個指令，並且可以用快捷鍵 (Mac Cmd+V 或 Windows Ctrl+V) 來貼到像是文字編輯器等工具裡面。
@@ -68,10 +73,15 @@ copy($0)
 ```
 
 #### clear
-清除所有在控制台中的資訊，這個功能是個方法，跟一般 Linux Terminal 裡的 `clear` 不一樣，是需要呼叫才能使用
+清除所有在控制台中的資訊
 ```js
 clear()
 ```
+
+在結束之前還要再提到一個功能，我偶爾會用到。這個功能叫做**保存頁面 log 資訊** `Preserve log` 。它藏在控制台面版的設定裡，你可以透過面版右上角的![設定擷圖](https://www.dropbox.com/s/j8ir6ndxma77w4v/settings.jpg?raw=1)來打開它。打開下拉選單後，請選擇勾選 `Preserve log` 選項，之後當你在不同頁面做瀏覽時，它會幫你保存所有的 log 檔案。
+
+![使用 Preserve log)擷圖](https://www.dropbox.com/s/5c9rvzrolkmhl1h/preserve-log.jpg?raw=1)  
+**圖 5: 使用 Preserve log 功能**
 
 ## 小結
 我們今天介紹了幾個常見及常用的 API，而且這些 API 大部份是可以與元素面版做結合使用的。透過這些 API 你可以更快速的找到你想要操作的 DOM 元素，然後直接在控制台面版中編輯及改變它，要記得你得到的這些元素的操作會直接反應在頁面上。配合我們前幾天介紹的元素面版，你現在已經有完整的元素及樣式操作的工具，在不離開瀏覽器的情況下，你也可以操作及改變頁面上許多介面的畫面及結構。有覺得很強大嗎XD，好，不說廢話了。今天所介紹的這些控制台面版 API 是我自己本身比較常用的，如果你想要了解更多，你可以到[官網的文件](https://developers.google.com/web/tools/chrome-devtools/console/)上去看。接下來我們要一
