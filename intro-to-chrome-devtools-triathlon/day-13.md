@@ -18,14 +18,17 @@
 #### $0 - $4
 這個指令讓你可以得到你曾經在元素面版中拜訪過的元素的 DOM，什麼意思呢？就是當你使用滑鼠或是鍵盤在元素面版的 DOM 樹中移動時，開發者工具會記住最接近你的五次操作的元素，而這些 DOM 元素可以透過 $0 - $4 來在控制台中存取，我們來看個例子
 
-在 GitHub 首頁的 DOM 樹中，我們可以先移動到 body 然後移到有一個 class 名稱叫做 footer 的 div，最後到 class 名稱叫做 facebox 的 div 元素。
+在 iT幫邦忙首頁的元素面版 DOM 樹中，我們可以先移動到 body 然後移到有一個 class 名稱叫做 header 的 div，最後再移動到一個 footer 元素。
 這時候如果我們用 $0, $1, $3 控制台中，就會得到這幾個 DOM 元素及它下們的子孫元素。如果你用滑鼠移動到這元素上，開發者工具會顯示它在頁面的位置，如果你用滑鼠右鍵打開更多動作選單，並選擇 Reveal in Elements panel 它就會帶你回到元素面版裡 DOM 樹中這個被選擇元素的位置。
 
 ```js
-$0 // <div class="facebox" id="facebox" style="display:none;">
-$1 // <div class="footer container-lg p-responsive mt-6" role="contentinfo">
-$2 // <body class="logged-out env-production page-responsive min-width-0 f4" data-gr-c-s-loaded="true">
+$0 // <div class="container index-top">...</div>
+$1 // <div class="header">...</div>
+$2 // <body data-gr-c-s-loaded="true">...</body>
 ```
+
+![顯示拜訪過的元素擷圖](https://www.dropbox.com/s/5cstj5yf6sb8tn6/remember-dom.jpg?raw=1)  
+**圖 2: $0, $1 $2 顯示拜訪過的元素**
 
 #### $(選取器)
 如果有用過 jQuery 的朋友，應該對種選擇方式不漠生，但這個 API 跟 jQuery 的 `$()` 是有點差異的。在這裡它背後其實是呼叫 `document.querySelector()` 這個 DOM API ，所以如果我們用 `$('div')` 來選擇頁面上的 div 元素，如果這個頁面上有多個 div 元素，它就只會回傳第一個。下面再舉幾個例子
