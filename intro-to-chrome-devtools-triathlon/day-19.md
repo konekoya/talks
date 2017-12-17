@@ -23,6 +23,9 @@
 
 - 全域事件 Global Listeners: 這邊會有註冊在全域 (window) 下的所有事件列表
 
-- 
+- 事件中斷點 Event Listener Breakpoints: 這是一個蠻有趣的功能，它提供了很多不同的事件中斷點讓你可以做檢查，像是 `Animation`, `Load` 還有像是常見的滑鼠及鍵盤等事件。你可以在這些事件的 checkbox 上打開啟用這些事件。假設我打開了 Mouse 下的 click 事件，這樣當頁面上有任何 Mouse click 事件發生時，中斷點就會停在這個事件相關的程式中。
+
+
+## 與控制台結合使用
 
 
