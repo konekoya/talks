@@ -5,6 +5,8 @@
 ## 應用面版介面簡介
 應用面版是兩欄式的介面，左邊有所有可選用的項目，點選後，右邊的欄位就會顯現選項內容。
 
+![應用面版介面擷圖](https://www.dropbox.com/s/7mkb80cy4h60btg/application.jpg?raw=1)
+**圖 1**: 應用面版的介面
 
 ## 檢視及編輯 Local storage
 你可以檢視你的網頁所使用的 Local storage 資訊，打開左邊側欄的 Local Storage，在這邊會有可用的網域列表，選擇你所想要查看的網域。Local storage 所儲存的資訊是用鍵及值 (key-value pairs) 來做存放。你可以在列表中看到所有儲存在 Local storage 的資料，你也可以透過上方的 Filter 來搜尋特定的鍵及值。
@@ -13,7 +15,10 @@
 
 - 刪除鍵及值：選定要刪除的資料後，使用鍵盤的 delete 鍵或是工具列上的刪除按鈕來刪除這一筆資料。如果你想清除所有 Local storage 裡的資料的話，可以使用上方工具列的清除按鈕來清除所有資料。
 
-- 新增一筆資料：在資料列表的最下方空白處用滑鼠連點兩下就可以新增一筆新的資料 
+- 新增一筆資料：在資料列表的最下方空白處用滑鼠左鍵連點兩下就可以新增一筆新的資料 
+
+![檢視及編輯 Local storage擷圖](https://www.dropbox.com/s/031jw92g3m6nhsw/local-storage.jpg?raw=1)
+**圖 2**: 檢視及編輯 Local storage
 
 > 上述的新增、刪除、尋找及編輯的功能其實也都可以透過 JavaScript 來完成，如果你打開控制台抽屜 (Console drawer)，直接使用 HTML API 來操作，這些操作的結果都會立即更新到 Local storage 列表中
 
