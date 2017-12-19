@@ -3,12 +3,12 @@
 
 ## 原始碼面版介面簡介
 原始碼面版主要由三個大區塊組成：
-- 檔案瀏覽控制台 (File Navigator pane): 頁面上所有的資源列表
-- 程式編輯控制台 (Code Editor): 當你從檔案瀏覽控制台中選擇檔案後，檔案的原始碼就會出現在這裡
-- JS 除錯控制台 (JavaScript debugging pane): 這裡提供了很多除錯 JS 的工具，我們後面會介紹幾個比較常用的
+- 檔案瀏覽控制台 (File Navigator pane): 位於面版左邊，列出頁面上所有可用的資源
+- 程式編輯控制台 (Code Editor): 在面版中間，當你從檔案瀏覽控制台中選擇檔案後，檔案的原始碼就會出現在這裡
+- JS 除錯控制台 (JavaScript debugging pane): 位於面版的右邊，這裡提供了很多除錯 JS 的工具，我們後面會介紹幾個比較常用的
 
-![原始碼面版簡介擷圖]  
-**圖1**：原始碼面版由這三個主要的控制台組成
+![原始碼面版簡介擷圖](https://www.dropbox.com/s/1d0wq3ilh7y5xq3/overview.jpg?raw=1)
+**圖 1**：原始碼面版由這三個主要的控制台組成
 
 ## 使用中斷點 (Breakpoints)
 會不會使用中斷點是一個很重要的技巧，當你知道怎麼使用中斷點後，要找到程式中的臭蟲就相對簡單很多。我們今天要使用來除錯的範例是官方文件裡提供的一個 [Demo 網頁](https://googlechrome.github.io/devtools-samples/debug-js/get-started)，我本來是想要一樣用 IT邦的網頁來做介紹，但是怕這樣原始碼內容太多而且複雜，並且網頁有更新的可能，所以最後決定就用官方的文件 Demo
