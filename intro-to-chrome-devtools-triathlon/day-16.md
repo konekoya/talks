@@ -79,6 +79,10 @@ function updateLabel() {
 ```
 在確定程式正確後，請儲存檔案(Mac Cmd + S, Windows Ctrl + S)，然後回到頁面上，在 **Number 1** 跟 **Number 2** 這兩個輸入框裡輸入任意的數字後，按下 **Add Number 1 and Number 2** 這個按鈕。這時候你的程式就會停在中斷點上。
 
+![中斷點作用中的畫面擷圖](https://www.dropbox.com/s/vkdwy1z3jw8zezo/debugger-in-action.jpg?raw=1)
+**圖 4**：中斷點作用中的畫面
+
+
 > 如果沒有儲存成功的話，中斷點就不會出現。當透過原始碼面版編輯一個檔案時，在檔案名稱的頁籤上會出現一個星號在你的檔案名稱旁 (在我們這個例子裡是 **get-started.js***)，而當你儲存成功後，這個星號就會不見。另外，就像我前面一直在提到，如果你重新整理頁面，這些編輯包含中斷點都會消失。
 
 ## 小結
