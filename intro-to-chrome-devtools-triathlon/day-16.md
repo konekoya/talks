@@ -11,7 +11,7 @@
 **圖 1**：原始碼面版由這三個主要的控制台組成
 
 ## 使用中斷點 (Breakpoints)
-會不會使用中斷點是一個很重要的技巧，當你知道怎麼使用中斷點後，要找到程式中的臭蟲就相對簡單很多。我們今天要使用來除錯的範例是官方文件裡提供的一個 [Demo 網頁](https://googlechrome.github.io/devtools-samples/debug-js/get-started)，我本來是想要一樣用 IT邦的網頁來做介紹，但是怕這樣原始碼內容太多而且複雜，並且網頁有更新的可能，所以最後決定就用官方的文件 Demo
+會不會使用中斷點是一個很重要的技巧，當你知道怎麼使用中斷點後，要找到程式中的臭蟲就相對簡單很多。我們今天要使用來除錯的範例是官方文件裡提供的一個 [Demo 網頁](https://googlechrome.github.io/devtools-samples/debug-js/get-started)，我本來是想要一樣用 IT邦的網頁來做介紹，但是怕這樣原始碼內容太複雜，並且網頁有更新的可能，所以最後決定就用官方的文件 Demo 網頁
 
 ### 設定一個中斷點
 在 JS 中，要設定一個中斷點，可以使用 `debugger` 這個關鍵字 (Statement)，如下：
@@ -59,11 +59,13 @@ console.log('App is ready!');
 我們剛剛提到了如何設定一個中斷點，並且知道中斷點是需要被**執行**並在開發者工具打開著時，才會作動。接下來我們就用官方提供的文件來試試設定中斷點。我需要幾個步驟來完成這個中斷點的設置：
 
 1. 請先連到官方的 [Demo 網頁](https://googlechrome.github.io/devtools-samples/debug-js/get-started)
+    ![Demo 網頁擷圖](https://www.dropbox.com/s/bgzdjn4393e33q0/demo-site.jpg?raw=1)
+    **圖 2**：官方的 Demo 網頁
 2. 打開開發者工具並切換到原始碼面版 (Sources)
 3. 在左邊的檔案瀏覽控制台中找到一個叫做 **get-started.js** 的檔案。它會藏在 devtools/samples/debug-js 下面，你可以展開上面幾層的結構後找到它。  
 這邊你也可以透過檔案瀏覽控制台的打開檔案來快速搜尋來找到你想要找的檔案：用滑鼠左鍵點一下檔案瀏覽控制台右上方的三個小點圖示，在下拉選單中選擇 Open file ，這時候你應該會看到一個快速搜尋的視窗，在裡面輸入你想要打開的檔案名稱就可以了。也可以用快速鍵打開 (Mac Cmd + P, Windows Ctrl + P)  
-    ![快速搜尋視窗擷圖]  
-    **圖2**：快速搜尋視窗
+    ![快速搜尋視窗擷圖](https://www.dropbox.com/s/xbcujhrccxh5iqt/quick-search.jpg?raw=1)
+    **圖 3**：透過快速搜尋視窗來找到檔案
 4. 在打開 **get-started.js** 後，在程式編輯控制台裡你應該就會看到它所有的 JS 程式碼，程式編輯控制台的左邊，會有一排行號，請移動到行號 `32` 的最後方，按下鍵盤上的 enter 鍵來換行，並在新的一行中加上 `debugger`，完成後的程式碼應該像這樣：
 
 ```js
