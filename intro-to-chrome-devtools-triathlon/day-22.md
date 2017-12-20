@@ -26,4 +26,4 @@
 
 - Method: HTTP 請求的方法，較常見的就是 `GET`, `POST` 等
 
-
+- Content-Encoding: 內容編碼，如果你有使用像是 `gzip` 這種壓縮格式，就可以在這裡看到
