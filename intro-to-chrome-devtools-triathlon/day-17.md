@@ -44,12 +44,12 @@ const origin = 'Kinmen';
 > 移除中斷點的方式：在要移除的中斷點的行號上再用滑鼠左鍵點一下就可以移除掉它
 
 ![在 29 行作用中的中斷點擷圖](https://www.dropbox.com/s/2ocggp1u3kauhsg/breakpoint-in-action.jpg?raw=1)
-**圖 5**: 在 `29` 行作用中的中斷點
+**圖 6**: 在 `29` 行作用中的中斷點
 
 現在如果你檢視中斷點那一行的變數 `addend1` ，它的值會是 `undefined`，因為我們的程式在跑到這一行後就中斷了，所以 `addend1` 這個變數的值還沒有指定。同樣的，而接續後面的變數也是相同，都是 `undefined`，除了 `label` ，因為在呼叫這個 `updateLabel` 方法前， `label` 就已經在第 `41` 行宣告過了。
 
 ![在中斷點後的變數都是 undefined 擷圖](https://www.dropbox.com/s/wqr99rgfcqjd0ej/undefined.jpg?raw=1)
-**圖 6**: 在中斷點後的變數值是 `undefined` 
+**圖 7**: 在中斷點後的變數值是 `undefined` 
 
 這邊我們要提一下，雖然使用 `debugger` 是沒有比直接在開發者工具裡設置中斷點快速，但是常常我們是需要使用 `debugger` 在我們的原始碼中，這有有兩個主要的原因：
 - 在我們的原始碼中，我們知道我們想設置中斷點的程式碼位置，當我們在大專案中時，有上百個檔案，直接下 `debugger` 在我們想要中斷的地方是很快速並且準確的。你不用再跑來開發者工具，尋找這個檔案，然後再來下中斷點。
