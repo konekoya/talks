@@ -3,18 +3,25 @@
 
 ## 使用中斷點來除錯
 請重覆昨天的步驟，並使用官方的 [Demo](https://googlechrome.github.io/devtools-samples/debug-js/get-started) 來打開中斷點，如果你的步驟都正確的話，你的畫面應該會像下面：  
-![中斷點擷圖](https://www.dropbox.com/s/vkdwy1z3jw8zezo/debugger-in-action.jpg?raw=1)  
+![作用中的中斷點擷圖](https://www.dropbox.com/s/vkdwy1z3jw8zezo/debugger-in-action.jpg?raw=1)  
 **圖 1**: 在 Demo 網頁上作用中的中斷點
 
-在這個狀態下我們可以做很多事，首先你在畫面上你可以看到的是在這個 `debugger` 前的變數數值已經都直接顯示在各變數的後面了。
-像我輸入在 **Number 1** 的值是 `1`，**Number 2** 的值是 `2`，所以他們的值各是 `1` 跟 `2`，而我們也可以看到變數 `sum` 的值是 `12`！
+在這個狀態下我們可以做很多事，首先在畫面上你可以看到的是在這個 `debugger` 前的變數數值已經都直接顯示在各變數的後面了。
+像我輸入在 **Number 1** 的值是 `1`，**Number 2** 的值是 `2`，所以他們的值各是 `1` 跟 `2`，而我們也可以看到變數 `sum` 的值是 `12`，
 咦？怎麼會是 `12` 呢？因為這個官方 Demo 是來拿做除錯 JS 的，所這是裡面的臭蟲，我們晚點會一起來修正它，不過在那之前，我們先來看一下其他功能。
+
+![變數值擷圖](https://www.dropbox.com/s/ui18ikpeom5vb8w/vars.jpg?raw=1)  
+**圖 2**: 中斷點作用時，變數值會出現在變數後面
+
 
 如果你現在把滑鼠移到各個變數上，它會出現變數當下的值，如果你移到方法上，像是 `getNumber1()`，它告訴你它是一個方法，你可以甚至知道這個方法裡面的程式，及它所宣告的位置 (行號)。如果你移到 `label.textContent` 的 `label` 上，你會發現這個變數有超多屬性的，因為這個一個 DOM 元素，你可以在行號 `43` 看到它的宣告。
 
-```js
-var label = document.querySelector('p'); // 回傳一個 DOM 元素 P
-```
+![方法擷圖](https://www.dropbox.com/s/gnlemiwqjapcuim/function.jpg?raw=1)  
+**圖 3**: 移到 `getNumber1()` 上所得到的資訊  
+
+
+![DOM 元素擷圖](https://www.dropbox.com/s/qysqx4dwq5cfvwa/dom.jpg?raw=1)  
+**圖 4**: 移到 `label` 上所得到的資訊
 
 ## 使用開發者工具的中斷點功能
 這邊我們要提一下變數的作用域，什麼意思呢？我們剛剛所設的中斷點是有變數作用域的，我們來看一個例子比較好解釋：
