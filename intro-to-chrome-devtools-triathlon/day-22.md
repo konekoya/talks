@@ -27,3 +27,8 @@
 - Method: HTTP 請求的方法，較常見的就是 `GET`, `POST` 等
 
 - Content-Encoding: 內容編碼，如果你有使用像是 `gzip` 這種壓縮格式，就可以在這裡看到
+
+- Priority: 下載優先順序，通常較高的就是 HTML，然後才是 CSS, JS 最後是像圖片這類的資源
+
+上面列出來的就是常見的幾個請求項目，接下來我們一起來看一下 Waterfall
+
