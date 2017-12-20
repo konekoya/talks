@@ -14,6 +14,9 @@
 
 - Status: HTTP 請求狀態，這個就是我們常見的各樣 HTTP 請求回傳後的狀態，常見的有 `200`, `304` `404` 等，在 MDN 上有[完整列表](https://developer.mozilla.org/zh-TW/docs/Web/HTTP/Status)，如果請求失敗，這裡會有失敗的訊息，而整個請求也會用紅色來表示
 
+- Protocol: 使用的HTTP 協定，常見的有 `http/1.1`, `h2` (HTTP2) 等等
+
+- Type: 請求資源的類型，會有 `xhr` (Ajax 請求), `document` (HTML), `stylesheet` (CSS), `script` (JS) 等等
 
 
 
