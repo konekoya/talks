@@ -2,9 +2,9 @@
 昨天我們中斷點講到了一半，今天我們就接著一起來看在中斷點作用後，我們可以做些什麼。
 
 ## 使用中斷點來除錯
-請重覆昨天的步驟，並使用官方的 [Demo](https://googlechrome.github.io/devtools-samples/debug-js/get-started) 來打開中斷點，如果你的步驟都正確的話，你的畫面應該會像下面：
-
-![中斷點擷圖]()
+請重覆昨天的步驟，並使用官方的 [Demo](https://googlechrome.github.io/devtools-samples/debug-js/get-started) 來打開中斷點，如果你的步驟都正確的話，你的畫面應該會像下面：  
+![中斷點擷圖](https://www.dropbox.com/s/vkdwy1z3jw8zezo/debugger-in-action.jpg?raw=1)  
+**圖 1**: 在 Demo 網頁上作用中的中斷點
 
 在這個狀態下我們可以做很多事，首先你在畫面上你可以看到的是在這個 `debugger` 前的變數數值已經都直接顯示在各變數的後面了。
 像我輸入在 **Number 1** 的值是 `1`，**Number 2** 的值是 `2`，所以他們的值各是 `1` 跟 `2`，而我們也可以看到變數 `sum` 的值是 `12`！
