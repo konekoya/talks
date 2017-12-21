@@ -19,3 +19,7 @@
 
 每個 HTTP 請求裡都會包含這個資訊，在這裡面它又分成了幾個區塊：
 - General: 這裡算是一個比較精簡資訊的整理，讓你可以很快的知道這個請求的位置 (Request URL), 請求方式 (Request Method), 這個請求的狀態 (Status Code)
+
+- Response Headers: 這裡面就是伺服器在接收到我們的請求後回傳的表頭，裡面會有快取設定 (Cache-Control), 內容編碼方式 (Content-Encoding), 內容大小(長度) (Content-Length), 內容類別 (Content-Type) 還有是那一種伺服器 (Server)，你可以用 `view source` 來看它的原始資料，我們目前看的這個列表是開發者工具有整理過的
+
+- Request Headers
