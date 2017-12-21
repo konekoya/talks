@@ -6,6 +6,7 @@
 在開始之前，請打開官方的 [Demo](https://googlechrome.github.io/devtools-samples/debug-js/get-started) 網頁，然後打開開發者工具並切換到 **原始碼面版(Sources panel)** 並打開 **get-started.js** 然後在程式碼的行號 `29`, `32` 插入中斷點，再移動到畫面上的文字輸入框 **Number 1** 跟 **Number 2** 輸入任意的數字後，按下 **Add Number 1 and Number 2** 這個按鈕。這時候你的程式就會停在中斷點，程式第 `29` 行的位置。如下圖：
 
 ![中斷點擷圖](https://www.dropbox.com/s/cb2v7u8kjnseul2/breakpoint-29.jpg?raw=1)
+**圖 1** : 在程式第 `29` 行中斷點
 
 - 呼叫堆疊 Call Stack: 當中斷點作用中的時候，這邊會顯示出接下來要呼叫的方法列表，點選列表中的方法會跳到該方法去。在我們的 Demo 中，我們目前停在程式行號 `29`，這時候的 Call Stack 如下圖：
 
@@ -76,6 +77,10 @@ function updateLabel() {
   label.textContent = addend1 + ' + ' + addend2 + ' = ' + sum;
 }
 ```
+
+修正後的中斷點應該像下圖：
+![修正後的中斷點擷圖](https://www.dropbox.com/s/c2pvk1ofnf5ubvm/fixed.jpg?raw=1)
+
 
 修改完要記得存檔，然後我們再試著輸入數字來做加總測試，看起來都沒有問題，喔耶！
 如果這是我們自己的程式，那在這個階段後或是在剛剛我們在控制台找到問題後，就是把修改完的程式放到我們自己的原始碼中，這樣就完成除錯的過程了。
