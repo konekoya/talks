@@ -12,13 +12,13 @@ JS 除錯控制台位在原始碼面版的右邊，這一整排的功能第一�
 
 #### 在中斷點中移動
 這幾天如果你有跟著我一起設置中斷點，你會發現當中斷點作動中時，在畫面上會有一個 **Paused in debugger** 的工具欄。如下圖：    
-![中斷點29擷圖](https://www.dropbox.com/s/6jhiddztcwqfuzx/pause.jpg?raw=1)  
-**圖 1**: 中斷點停在程式的第 `29` 行 
+![Paused in debugger擷圖](https://www.dropbox.com/s/6jhiddztcwqfuzx/pause.jpg?raw=1)  
+**圖 2**: Paused in debugger
 
 這是讓我們可以在多個中斷點中往前移動的方式，當你按下那個像播放的圖示 (繼續執行 Resume script execution) 的時候，中斷點就會往前執行，如果前面的程式裡還有中斷點的話，它就會停在下一個中斷點，所以以我們的例子，當你按下**繼續執行**時，中斷點就會從 `29` 跳到 `32` 並停在 `32` 行。而在這兩個中斷點間我們得到的變數資料也都會改變，就像真的在執行程式一樣。
 
-![中斷點29擷圖](https://www.dropbox.com/s/ukiadfzo68b7j9g/breakpoint-32.jpg?raw=1)  
-**圖 1**: 中斷點停在程式的第 `29` 行 
+![Resume script execution擷圖](https://www.dropbox.com/s/ukiadfzo68b7j9g/breakpoint-32.jpg?raw=1)  
+**圖 3**: Resume script execution 
 
 > 在你真的在除錯時，你會發現有時候你設的中斷點位置並不是問題所在，也就是說臭蟲不在這，所以常常我會設很多個中斷點，然後使用**繼續執行**在當中移動，直到找到問題點為止。
 
