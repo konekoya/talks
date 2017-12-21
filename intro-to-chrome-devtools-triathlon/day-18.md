@@ -27,15 +27,15 @@ JS 除錯控制台位在原始碼面版的右邊，這一整排的功能第一�
 
 我們在下面一起說明：
 
-- 移動到下個方法呼叫 Step over next function call ![移動到下一個方法呼叫擷圖](https://www.dropbox.com/s/ukqq295rc0z1zp9/step-next.jpg?raw=1): 讓你移動到下一個方法呼叫，但是不進到方法裡面。在我們的例子中，我們的中斷點會先停在 `29`，當你使用這個功能，它會向下移動到 `30` 行。
+- 移動到下個方法呼叫 Step over next function call ![移動到下一個方法呼叫擷圖](https://www.dropbox.com/s/ukqq295rc0z1zp9/step-next.jpg?raw=1) : 讓你移動到下一個方法呼叫，但是不進到方法裡面。在我們的例子中，我們的中斷點會先停在 `29`，當你使用這個功能，它會向下移動到 `30` 行。
 
-- 進入到下一個方法呼叫裡 Step into next function call![進入到下一個方法呼叫裡擷圖](https://www.dropbox.com/s/wrl9upc0t0xlmfi/step-into.jpg?raw=1): 進到下一個方法呼叫裡。在我們這個例子裡，你可以在中斷點停在第 `29` 行後，再點選這個功能，這樣程式就會進入 `getNumber` 方法。
+- 進入到下一個方法呼叫裡 Step into next function call ![進入到下一個方法呼叫裡擷圖](https://www.dropbox.com/s/wrl9upc0t0xlmfi/step-into.jpg?raw=1) : 進到下一個方法呼叫裡。在我們這個例子裡，你可以在中斷點停在第 `29` 行後，再點選這個功能，這樣程式就會進入 `getNumber` 方法。
 
-- 跳出目前的方法呼叫 Step out of current function![跳出目前的方法呼叫擷圖](https://www.dropbox.com/s/mkjwhe9edm1xkfj/step-out.jpg?raw=1): 跳出目前的方法，如果我們用前一個功能進入到一個方法呼叫裡，你想要跳出來，你就可以使用這個選項來離開目前所在的方法。
+- 跳出目前的方法呼叫 Step out of current function ![跳出目前的方法呼叫擷圖](https://www.dropbox.com/s/mkjwhe9edm1xkfj/step-out.jpg?raw=1) :  跳出目前的方法，如果我們用前一個功能進入到一個方法呼叫裡，你想要跳出來，你就可以使用這個選項來離開目前所在的方法。
 
-- 打開及關閉所有中斷點 Deactivate (Activate) breakpoints![打開及關閉所有中斷點擷圖](https://www.dropbox.com/s/9salbbswi3hx5mh/toggle-pause.jpg?raw=1): 有時候中斷點太多了，你可能在執行完前面幾個中斷點後，後面的不想要繼續執行。或是說，你想暫時停止所有中斷點的執行，你就可以用這個工具來做開關。
+- 打開及關閉所有中斷點 Deactivate (Activate) breakpoints ![打開及關閉所有中斷點擷圖](https://www.dropbox.com/s/9salbbswi3hx5mh/toggle-pause.jpg?raw=1) : 有時候中斷點太多了，你可能在執行完前面幾個中斷點後，後面的不想要繼續執行。或是說，你想暫時停止所有中斷點的執行，你就可以用這個工具來做開關。
 
-- 在例外時中斷 Pause on exceptions![在例外時中斷擷圖](https://www.dropbox.com/s/1jhwvbapri3c85i/exception.jpg?raw=1): 當這個功能打開時，只要你的程式裡有任何例外，它都會觸發中斷點。這個我功能我很少用，因為很多例外的錯誤是來自第三方的程式。但有時候找不到臭蟲的時候我會用它來試著找看看。
+- 在例外時中斷 Pause on exceptions ![在例外時中斷擷圖](https://www.dropbox.com/s/1jhwvbapri3c85i/exception.jpg?raw=1) : 當這個功能打開時，只要你的程式裡有任何例外，它都會觸發中斷點。這個我功能我很少用，因為很多例外的錯誤是來自第三方的程式。但有時候找不到臭蟲的時候我會用它來試著找看看。
 
 #### 觀察特定變數 Watch
 如果你想觀察某個特定變數的值改變，這個功能就會很方便。現在在 `35` 再加上一個中斷點，然後重覆我們之前的步驟讓中斷點運作，你的畫面應該會像這樣：
