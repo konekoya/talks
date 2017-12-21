@@ -22,4 +22,8 @@
 
 - Response Headers: 這裡面就是伺服器在接收到我們的請求後回傳的表頭，裡面會有快取設定 (Cache-Control), 內容編碼方式 (Content-Encoding), 內容大小(長度) (Content-Length), 內容類別 (Content-Type) 還有是那一種伺服器 (Server)，你可以用 `view source` 來看它的原始資料，我們目前看的這個列表是開發者工具有整理過的
 
-- Request Headers
+- Request Headers: 這就是這個請求送出的要求訊息，裡面會有接受的類別 (Accpet), 編碼方式 (Accept-Encoding), 語言 (Accept-Language), 位置 (Host) 及使用的瀏覽器 (User-Agent)，跟 Response Headers 一樣，你也透過 `view source` 可以看它的原始資料
+
+如果你的請求有使用到參數，那可能還會有下面的欄位，裡面會有你的請求所帶的請求參數，在除錯的時候常常會需要看這些參數
+- Query String Parameters
+- Form Data
