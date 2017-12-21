@@ -35,5 +35,15 @@
 這邊就是可以看到這個請求的 Cookies 資訊
 
 #### Timing
-這個頁籤就有比較多資訊我們可以一起來看了：
+這個頁籤就有比較多資訊我們可以一起來看了，有些資訊官方文件也沒有提供，我就沒有列在下面
+> Chrome 一次可以同時處理的 HTTP 請求為 6 個，所以一個頁面如果有超過 6 個請求，它就會把這些請求分批處理。而這個限制是在 HTTP/1.0 及 1.1，HTTP2 就沒有這個限制，它可以一次處理所有請求
 
+- Queueing: 在請求開始前，等待的時間 
+- Stalled: 跟 Queueing 類似，也是在等待
+- DNS Lookup: 在做 DNS Lookup 所需要時間，瀏覽器在轉換請求的 IP 位址
+- Waiting (Time to Fisrt Byte : TTFB): 簡單的說，就是瀏覽器開始接收資料的時間
+- Content Download: 請求內容下載所花的時間
+
+上面提到的幾個資訊，最重要的應該就是 Waiting 跟 Content Download 了，這兩個可能都代表著你的網路連線較慢或是伺服器的速度很慢，而 Content Download 很慢也有可能是請求的下載量太多了。
+
+## 小結
