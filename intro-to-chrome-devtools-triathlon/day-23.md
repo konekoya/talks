@@ -6,3 +6,7 @@
 
 > 今天我們用的範例網站一樣是 [iT 邦幫忙的首頁](https://ithelp.ithome.com.tw/)
 
+我選用的 HTTP 請求是 `ithelp.ithome.com.tw` 的 `document` 文件。在用滑鼠左鍵點擊後，它會在請求的右邊打開一個新的頁面，如下圖：
+
+!(請求細節擷圖)[]
+
