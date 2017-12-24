@@ -33,6 +33,15 @@
 最下面是有通過的審查項目，在這一次的審查裡總共有 5 個
  
 #### 最佳實踐 (Best practices)
+在 **Failed audits** 這裡面就有更多建議做法來最佳化我們的頁面，我們一樣一起來看幾個項目
+
+- Does not use HTTP/2 for all of its resources: 這裡提到頁面上有部份的資源不是透過 HTTP 2 來做傳輸，展開後在下面列表裡會有所有沒有使用 HTTP2 傳輸的請求
+
+- Includes front-end JavaScript libraries with known security vulnerabilities: 這裡列出載進頁面的 JS 資源有的安全性弱點，在我們這個例子裡是 jQuery@1.11.1 ，你可以點選它的連結，它會帶你到弱點分析的網站告訴你這個安全性問題是什麼
+
+- Browser errors were logged to the console: 這邊列出控制台面版裡得到的錯誤 log 訊息，並建議把它處理掉
+
+下面列的是 **Passed Autdits** 是有通過的審查
 
 ## 小結
 改版後的審查面版威力更強大了，
