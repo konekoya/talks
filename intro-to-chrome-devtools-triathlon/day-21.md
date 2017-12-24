@@ -5,17 +5,17 @@
 
 > 請先打開開發者工具並切換到網路面版，然後再重新整理頁面一次這樣才會得到完整的頁面資料
 
-- Capture screenshot: 這個功能打開後，就可以錄下頁面載入時的擷圖，這個擷圖是每隔幾秒就擷一次，所以你可以清楚的看到你的頁面元素載入時的順序。你可以透過這個功能來檢查載入的時候，是不是先把重要的功能 (像是主選單) 先載入了。
+- Capture screenshot ![capture screenshot 擷圖](https://www.dropbox.com/s/w0rgptqzoyt7xwr/screencast-icon.jpg?raw=1) : 這個功能打開後，就可以錄下頁面載入時的擷圖，這個擷圖是每隔幾秒就擷一次，所以你可以清楚的看到你的頁面元素載入時的順序。你可以透過這個功能來檢查載入的時候，是不是先把重要的功能 (像是主選單) 先載入了。
 
-- Group by frame: 這是一個新功能，官方文件還沒有更新 XD, 我測試的結果是：它會把同一個網域的請求整理成一個群組，算是方便閱讀吧？
+- Group by frame ![group by frame 擷圖](https://www.dropbox.com/s/mucif54d9mrsefn/group-by-frame.jpg?raw=1) : 這是一個新功能，官方文件還沒有更新 XD, 我測試的結果是：它會把同一個網域的請求整理成一個群組，算是方便閱讀吧？
 
-- Preserve log: 這個功能跟之我們介紹控制台面版 (Console panel) 裡的 Preserve log 很類似，在打開後，當你在不同的頁面做切換時， HTTP 請求列表裡的資訊會被保存不會被清掉
+- Preserve log ![Preserve log 擷圖](https://www.dropbox.com/s/hq7n6cs1lyx2rc0/preserve-log.jpg?raw=1) : 這個功能跟之我們介紹控制台面版 (Console panel) 裡的 Preserve log 很類似，在打開後，當你在不同的頁面做切換時， HTTP 請求列表裡的資訊會被保存不會被清掉
 
-- Disable cache: 當開發者工具是打開的時候，每次頁面的重新整理都會清掉所有快取。這是個很實用的功能，開發的時候我會一直打開，這樣可以避免因為有快取，頁面載入後畫面或是功能與你的原始碼不一致的問題。但是記得不用的時候要關掉，沒有快取會讓網頁載入的時間變長。
+- Disable cache ![Disable cache 擷圖](https://www.dropbox.com/s/wz26tbqyl326a6h/disable-cache.jpg?raw=1) : 當開發者工具是打開的時候，每次頁面的重新整理都會清掉所有快取。這是個很實用的功能，開發的時候我會一直打開，這樣可以避免因為有快取，頁面載入後畫面或是功能與你的原始碼不一致的問題。但是記得不用的時候要關掉，沒有快取會讓網頁載入的時間變長。
 
-- Offline: 關閉網路功能，關閉後會在網路面版上顯示一個警示的小圖示。
+- Offline ![Offline 擷圖](https://www.dropbox.com/s/zwa6nbgn1om2h14/offline.jpg?raw=1) : 關閉網路功能，關閉後會在網路面版上顯示一個警示的小圖示。
 
-- Online: 這個功能是一個下拉選單，預設值是 `Online` 也就是正常的網路速度，它可以設定成像是 `Fast 3G`, `Slow 3G` 這種連線速度，方便做行動裝置載入效能測試。這個功能也有一個自己獨立的區塊，你可以透過右上角三個小點的設定 -> More tools -> Network conditions 來打開它。
+- Online ![Online 擷圖](https://www.dropbox.com/s/wbs5qj9njq2njxw/network.jpg?raw=1) : 這個功能是一個下拉選單，預設值是 `Online` 也就是正常的網路速度，它可以設定成像是 `Fast 3G`, `Slow 3G` 這種連線速度，方便做行動裝置載入效能測試。這個功能也有一個自己獨立的區塊，你可以透過右上角三個小點的設定 -> More tools -> Network conditions 來打開它。
 
 > 這個網路速度模擬的功能打開後，跟 `Offline` 選項一樣，會在網路面版上會顯示一個警示的小圖示，這是要提醒你用完記得要關掉，不然接下來每次你載入網頁的速度都會變成模擬的速度 XD
 
