@@ -8,7 +8,7 @@
 - Capture screenshot ![capture screenshot 擷圖](https://www.dropbox.com/s/w0rgptqzoyt7xwr/screencast-icon.jpg?raw=1) : 這個功能打開後，就可以錄下頁面載入時的擷圖，這個擷圖是每隔幾秒就擷一次，所以你可以清楚的看到你的頁面元素載入時的順序。你可以透過這個功能來檢查載入的時候，是不是先把重要的功能 (像是主選單) 先載入了。
 
 ![capture screenshot 擷圖](https://www.dropbox.com/s/4papcj71h7fg35a/screencast.jpg?raw=1)  
-**圖 2** : capture screenshot 功能打開始所擷取到每隔幾秒的頁面載入圖片
+**圖 1** : capture screenshot 功能打開始所擷取到每隔幾秒的頁面載入圖片
 
 - Group by frame ![group by frame 擷圖](https://www.dropbox.com/s/mucif54d9mrsefn/group-by-frame.jpg?raw=1) : 這是一個新功能，官方文件還沒有更新 XD, 我測試的結果是：它會把同一個網域的請求整理成一個群組，算是方便閱讀吧？
 
@@ -20,7 +20,10 @@
 
 - Online ![Online 擷圖](https://www.dropbox.com/s/wbs5qj9njq2njxw/network.jpg?raw=1) : 這個功能是一個下拉選單，預設值是 `Online` 也就是正常的網路速度，它可以設定成像是 `Fast 3G`, `Slow 3G` 這種連線速度，方便做行動裝置載入效能測試。這個功能也有一個自己獨立的區塊，你可以透過右上角三個小點的設定 -> More tools -> Network conditions 來打開它。
 
-> 這個網路速度模擬的功能打開後，跟 `Offline` 選項一樣，會在網路面版上會顯示一個警示的小圖示，這是要提醒你用完記得要關掉，不然接下來每次你載入網頁的速度都會變成模擬的速度 XD
+![Online 下拉選單擷圖](https://www.dropbox.com/s/jxazzxf6slngrkb/network-dropdown.jpg?raw=1)  
+**圖 2** : online 下拉選單打開的選項
+
+> 這個網路速度模擬的功能打開後，跟 `Offline` 選項一樣，會在網路面版上會顯示一個警示的小圖示![network warning 擷圖](https://www.dropbox.com/s/reruge7ua6lqf7f/warning.jpg?raw=1)，這是要提醒你用完記得要關掉，不然接下來每次你載入網頁的速度都會變成模擬的速度 XD
 
 ## 使用總覽
 在總覽裡你可以看到你的頁面在載入時每個資源載入的時間及順序。接下來我們就來介紹如何操作：  
