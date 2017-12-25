@@ -35,5 +35,8 @@
 ## Waterfall
 Waterfall 其實跟昨天講的總覽很像，只是它是列出這個 HTTP 請求本身的開始及結束時間，當你的滑鼠移到請求的 Waterfall 上時，可以看到更清楚的資訊，這些資訊我們明天會跟請求的詳細內容一起說明。再來，你可以看到整個 Waterfall 會有兩條不同顏色的線 (在總覽也有，昨天忘了說 XD)，一條是藍色的那是 `DOMContentLoaded` 事件的時間點，也就是你的 DOM 已經解析完成的時間，但是像是圖片, CSS, 還沒有。後面的一條是紅色的 `Load` 事件，代表資源包含圖片, CSS 等也都載完了的事件。 
 
+![waterfall 擷圖](https://www.dropbox.com/s/75dpsivr72e9eoc/waterfall.jpg?raw=1)
+**圖 2** : Waterfall 裡列出資源載入的時間點
+
 ## 小結
 今天我們一起看了 HTTP 請求列表的欄位項目各自代表的意義還有簡單的看了一下 Waterfall, 明天我們會一起來討論每個請求的細節，包含請求表頭, 內容還有請求所花的時間 (也就是今天沒有講的 Waterfall 內容)，那我們就明天見吧！
