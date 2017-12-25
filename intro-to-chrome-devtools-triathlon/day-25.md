@@ -9,9 +9,11 @@
 - Record allocation profile
 - Record allocation timeline
 
-我們今天先從 **Take heap snapshot** 開始介紹，這邊的 **heap snapshot** 官方翻成 **堆快照**，我們今天及接下來幾天使用的範例都是官方文件給的範例，為了方便大家操作，我把這幾個範例都放在 Codepen.io 上，今天使用的範例是[這個](https://codepen.io/konekoya/pen/vpyqby?editors=1010)
+我們今天先從 **Take heap snapshot** 開始介紹，這邊的 **heap snapshot** 官方翻成 **堆快照**，我們今天及接下來幾天使用的範例都是官方文件給的範例，為了方便大家操作，我把這幾個範例都放在 Codepen.io 上，今天使用的範例在[這裡](https://codepen.io/konekoya/pen/vpyqby?editors=1010)
 
 在開始之前，我們先來看一下我們這個範例在做什麼：
+
+JavaScript
 ```js
 
 var detachedNodes;
@@ -28,3 +30,10 @@ function create() {
 document.getElementById('create').addEventListener('click', create);
 
 ```
+
+HTML
+```html
+<button class="create">Create detached List</button>
+```
+
+從上面的範例程式可以看到，我們用了一個 `create` 方法來創造 10 個 `li` 並把它 `append` 到一個 `ul` 裡，最後我們把它
