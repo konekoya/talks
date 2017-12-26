@@ -7,7 +7,7 @@
 
 ![分離 DOM 節點擷圖]()
 
-這邊我們先來說明一下這個列表欄位各自代表的意義：
+這邊我們先來說明一下這個列表欄位各自代表的意義 (官方文件有更詳細的[說明](https://developers.google.com/web/tools/chrome-devtools/memory-problems/heap-snapshots))：
 - Constructor: 產生物件所使用的建構子，像是 `String`, `Array`, `Object` 等
 - Distance: 物件到 `window` 也就是 root 的層級
 - Objects count: 物件數量
