@@ -40,8 +40,8 @@
 ![cookies 擷圖](https://www.dropbox.com/s/veb8ihpeq926tp2/cookies.jpg?raw=1)
 **圖 3** : 在這個頁面裡可以看到 cookies 的詳細內容
 
-#### Timing
-這個頁籤就有比較多資訊我們可以一起來看了，有些資訊官方文件也沒有提供，我就沒有列在下面
+#### 時間 Timing
+這個頁籤就有比較多資訊我們可以一起來看了(這裡使用的 HTTP 請求改為 `simplemde.min.css` 這個檔案，它的資訊比較完整)，有些資訊官方文件也沒有提供，我就沒有列在下面
 > Chrome 一次可以同時處理的 HTTP 請求為 6 個，所以一個頁面如果有超過 6 個請求，它就會把這些請求分批處理。而這個限制是在 HTTP/1.0 及 1.1，HTTP2 就沒有這個限制，它可以一次處理所有請求
 
 - Queueing: 在請求開始前，等待的時間 
@@ -49,6 +49,9 @@
 - DNS Lookup: 在做 DNS Lookup 所需要時間，瀏覽器在轉換請求的 IP 位址
 - Waiting (Time to Fisrt Byte : TTFB): 簡單的說，就是瀏覽器開始接收資料的時間
 - Content Download: 請求內容下載所花的時間
+
+![Timing 擷圖](https://www.dropbox.com/s/tdmjk4bb3rvxmos/timing.jpg?raw=1)
+**圖 4** : Timing 頁面裡可以看到與前面介紹的 Waterfall 一樣的資源載入時間表
 
 上面提到的幾個資訊，最重要的應該就是 Waiting 跟 Content Download 了，這兩個可能都代表著你的網路連線較慢或是伺服器的速度很慢，而 Content Download 很慢也有可能是請求的下載量太多了。檢查伺服器及網路狀況或是壓縮請求 (gip) 都可能會有幫助。
 
