@@ -31,8 +31,14 @@
 #### 預覽及回覆 Preview and Response
 這兩個頁籤其實有點像，官方文件裡我也沒有找到有什麼不同… 但是 Preview 算是我比較常用的，你可以用它來看回傳的資源內容，像是圖片，它就會直接顯示圖片給你看，如果是像 JSON 類的資料，它會整理成一個類似 tree 的列表給你看
 
+![預覽擷圖](https://www.dropbox.com/s/t8yo6910ff5fjww/preview.jpg?raw=1)
+**圖 2** : 預覽及回覆的內容在我們這個例子裡有著一樣的內容
+
 #### Cookies
-這邊就是可以看到這個請求的 Cookies 資訊
+這邊就是可以看到這個請求的 cookies 資訊
+
+![cookies 擷圖](https://www.dropbox.com/s/veb8ihpeq926tp2/cookies.jpg?raw=1)
+**圖 3** : 在這個頁面裡可以看到 cookies 的詳細內容
 
 #### Timing
 這個頁籤就有比較多資訊我們可以一起來看了，有些資訊官方文件也沒有提供，我就沒有列在下面
