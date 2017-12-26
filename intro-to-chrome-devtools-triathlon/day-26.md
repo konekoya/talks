@@ -8,9 +8,9 @@
 ![分離 DOM 節點擷圖]()
 
 這邊我們先來說明一下這個列表欄位各自代表的意義：
-- Constructor:
-- Distance:
-- Objects count:
-- Shallow Size: 物件本身的記憶體使用大小
+- Constructor: 產生物件所使用的建構子，像是 `String`, `Array`, `Object` 等
+- Distance: 物件到 `window` 也就是 root 的層級
+- Objects count: 物件數量
+- Shallow Size: 物件本身所佔用的記憶體大小
 - Retained Size: 除了物件本身之外，包含它所關聯的其他物件所佔用的記憶體大小
 
