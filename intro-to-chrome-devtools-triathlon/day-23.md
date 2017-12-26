@@ -57,4 +57,4 @@
 
 ## 小結
 今天我們算是把網路面版講完了，花了好幾天的時間，可是還是有很多內容沒有提到(遮臉)。不過我可以保證這些一定是最常用的功能XD
-如果想要更多認識的朋友，老話一句，只能從[官方文件](https://developers.google.com/web/tools/chrome-devtools/network-performance/reference)下手啦，雖然有些欄位資訊官方好像也還有更新(看來大家都一樣，討厭寫文件冏)。接下來我們要一起來看審查面版 (Audits) 了，明天見！
+如果想要更多認識的朋友，老話一句，只能從[官方文件](https://developers.google.com/web/tools/chrome-devtools/network-performance/reference)下手啦，雖然有些欄位資訊官方好像也還沒有更新(看來大家都一樣，討厭寫文件冏)。接下來我們要一起來看審查面版 (Audits panel) 了，明天見！
