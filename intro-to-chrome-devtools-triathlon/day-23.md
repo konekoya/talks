@@ -53,7 +53,7 @@
 ![Timing 擷圖](https://www.dropbox.com/s/tdmjk4bb3rvxmos/timing.jpg?raw=1)
 **圖 4** : Timing 頁面裡可以看到與前面介紹的 Waterfall 一樣的資源載入時間表
 
-上面提到的幾個資訊，最重要的應該就是 Waiting 跟 Content Download 了，這兩個可能都代表著你的網路連線較慢或是伺服器的速度很慢，而 Content Download 很慢也有可能是請求的下載量太多了。檢查伺服器及網路狀況或是壓縮請求 (gip) 都可能會有幫助。
+上面提到的幾個資訊，最重要的應該就是 Waiting 跟 Content Download 了，這兩個可能都代表著你的網路連線較慢或是伺服器的速度很慢，而 Content Download 很慢也有可能是請求的下載量太多了。檢查伺服器及網路狀況或是壓縮請求 (gzip) 都可能會有幫助。
 
 ## 小結
 今天我們算是把網路面版講完了，花了好幾天的時間，可是還是有很多內容沒有提到(遮臉)。不過我可以保證這些一定是最常用的功能XD
