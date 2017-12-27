@@ -1,5 +1,5 @@
 # 審查面版
-我們在前面有簡單介紹了審查面版(Audits)，它可以幫我們檢測我們的網站是不是有遵循最佳實踐 (Best practices)，並提供我們每個問題的解決方式，讓我們的網站更快更穩定。
+我們在前面有簡單介紹了審查面版(Audits panel)，它可以幫我們檢測我們的網站是不是有遵循最佳實踐 (Best practices)，並提供我們每個問題的解決方式，讓我們的網站更快更穩定。
 
 > 審查面版最近才大改版，加入了 (Progressive Web App (PWA)) 功能，改到我都快不認識了 XXXD
 
@@ -9,6 +9,9 @@
 
 打開你的 Chrome 開發者工具並切換到審查面版，在這裡我們可以用 **Perform an audit** 來進行頁面的審查，在開始審查前，它會問你要針對哪幾個選項來做審查，我們今天只做 **Performance** 及 **Best practices**，在勾選這兩個項目後，按下 **Run audit** 來進行審查。這個過程要一點時間，要等一下。
 
+![我們今天只做 Performance 及 Best practices 面版擷圖](https://www.dropbox.com/s/g7ho65ptndsazqc/audits.jpg?raw=1)
+**圖 1** : 我們今天只做 Performance 及 Best practices 面版
+
 在跑完之後我們會得到一頁報告，在開始看之前，我們先看一下在工具列上的幾個功能
 - New audit: 再新增一個審查
 - Download report: 下載這個報告，下載後的檔案是一個 `JSON` 檔，下次要看時可以再用審查面版載入
@@ -17,6 +20,9 @@
 中間還有一個下載選單是讓你可以在多份報告中切換
 
 現在就讓我們一起來看這份報告
+
+![Audits 面版產出的報告擷圖](https://www.dropbox.com/s/tlcggxh2k15xz6i/report.jpg?raw=1)
+**圖 2** : Audits 面版產出的報告 
 
 #### 效能 Performance
 在頁面的上方會有 **Performance** 的分數，在我錄制的這一次審查報告中是 8 分(滿分是 100)，為什麼分數會這麼低…我們一起來看看 (iT邦的開發團隊不要 K 我冏，我不是打分數的人) 
