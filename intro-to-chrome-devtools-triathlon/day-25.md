@@ -36,7 +36,7 @@ document.getElementById('create').addEventListener('click', create);
 
 HTML
 ```html
-<button class="create">Create detached List</button>
+<button id="create">Create detached List</button>
 ```
 
 從上面的範例程式可以看到，在 JavaScript 裡我們用了一個 `create` 方法來創造 10 個 `li` 並把它 `append` 到一個 `ul` 裡成為一組新的清單，最後我們把它綁到一個 `button` 元素上，所以每一次只要按下這個按鈕，它就會產生一組 DOM 清單。但在看完程式後有沒有發現其實這些產生出來的清單並沒有真的 `append` 到 DOM 樹裡，它只有把它創造出來，然後指到 `detachedTree` 這個變數裡。
