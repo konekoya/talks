@@ -1,4 +1,4 @@
-# 記憶體面版 - 檢測記憶體洩漏
+# 記憶體面版 - 使用記憶體分配時間線
 今天我們要透過記憶體面版的另一個工具來檢測記憶體洩漏的這個問題，先來看一下今天我們要用來檢測的程式：
 
 > 今天的測試程式範例一樣來自[官方文件](https://developers.google.com/web/tools/chrome-devtools/memory-problems/)，而我也把範例程式放到 Codepen.io 上了，想要跟著一起做的朋友可以點[這裡](https://codepen.io/konekoya/pen/LeWVbO)
