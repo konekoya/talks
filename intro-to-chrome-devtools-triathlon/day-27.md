@@ -28,7 +28,8 @@ HTML
 
 好，我們已經準備好程式了，現在讓我們打開 Chrome 開發者工具，然後切換到記憶體面版 (Memory panel)，然後選擇 **Record allocation timeline**，再按下 **Start** 按鈕，這樣檢測工作就會開始了，你的畫面應該會是像下圖：
 
-![進行中的檢測]()
+![進行中的檢測](https://www.dropbox.com/s/juu7o7wwvun4ej9/recording.jpg?raw=1)
+**圖 1** : 正在進行中的檢測
 
 這個工具跟我們前兩天用的記憶堆快照 (Heap snapshot) 有點不太一樣，就像它的名稱一樣，它是在**錄制 (Record)** 我們在頁面上的操作，然後等錄制完後再來查看我們的記憶體洩漏問題。所以現在我們的時間線會一直跑直到我們按下工具列上的停止按鈕。現在按幾次我們頁面上的 **Create memory leaks** 按鈕來產生記憶體洩漏，然後再按下停止按鈕來停止錄制。
 
