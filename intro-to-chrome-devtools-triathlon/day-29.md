@@ -18,3 +18,8 @@
 
 ![加入分離 DOM 節點的擷圖](https://www.dropbox.com/s/hfnbb63yfx14f11/detached.jpg?raw=1)
 **圖 2** : 加入分離 DOM 節點的新報告
+
+在新的報告中我們會發現 **Nodes** 這條新的綠色線，而且它一直往上爬，這就是我們剛剛產生的這些分離的 DOM 節點。
+
+## 小結
+今天我們
