@@ -16,6 +16,5 @@ Talks that I've given at various events
   Getting started using VS Code as your day to day coding editor
 
 # Writtings
-* [intro-to-chrome-devtools-triathlon](https://github.com/konekoya/talks/tree/master/intro-to-chrome-devtools-triathlon)
+* [認識 Chrome 開發者工具](https://github.com/konekoya/talks/tree/master/intro-to-chrome-devtools-triathlon)
 
-  Work in progress...
