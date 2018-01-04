@@ -1,8 +1,10 @@
 # 認識 Chrome 開發者工具
 
 這是一個系列文章，用來參
-加[第九屆的 IT 邦幫忙鐵人賽](https://ithelp.ithome.com.tw/ironman) 介紹
-[Chrome 開發者工具](https://developer.chrome.com/devtools)。
+加[第九屆的 iT 邦幫忙鐵人賽](https://ithelp.ithome.com.tw/ironman) 介紹
+Chrome 開發者工具
+
+> 這個 Repo 裡面的內容已經沒有再更新，所有的更新及修訂都會直接發佈在[iT邦幫忙](https://ithelp.ithome.com.tw/users/20103325/ironman/1299)上面
 
 下面是目前暫定的三十天的主題：
 
