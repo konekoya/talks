@@ -22,8 +22,6 @@
 13. [控制台面版 2 - 結合元素面版](day-13.md)
 14. [行動裝置工具欄](day-14.md)
 14. Application panel
-    * cookies
-    * localStorage
 15. source panel - 中斷點
 16. source panel - 如何除錯
 17. source panel - 其他除錯技巧
