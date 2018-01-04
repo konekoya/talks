@@ -5,29 +5,13 @@
 
 > 這個 Repo 裡面的內容已經沒有再更新，所有的更新及修訂都會直接發佈在 iT邦幫忙上面
 
-下面是目前暫定的三十天的主題：
+目錄：
 
 1. [寫在前頭](day-1.md)
-   * 為什麼用 Chrome
-   * 會討論到的主題
 2. [一點點前端除錯的歷史](day-2.md)
-   * 早期的除錯方式
-   * Firebug 的出現
-   * 現代開發者工具
 3. [開發者工具面版簡介 1](day-3.md)
-   * Elements panel
-   * Console
-   * Network panel
-   * Performance panel
 4. [開發者工具面版簡介 2](day-4.md)
-   * Sources panel
-   * Security panel
-   * Application panel
-   * Audits panel
 5. [開發者工具面版簡介 3](day-5.md)
-   * Device mode
-   * Memory panel
-   * Others
 6. [開發者工具快捷鍵跟設定](day-6.md)
 7. [元素面版 - 動態編輯文件物件模型 1](day-7.md)
 8. [元素面版 - 動態編輯文件物件模型 2](day-8.md)
