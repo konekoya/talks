@@ -19,7 +19,10 @@ Talks that I've given at various events
 ## 2018
 * [Learning as a Dev](http://slides.com/konekoya/learning-as-a-dev)  
   Share some of my thoughts on how to improve your coding skills as a developer
-
+  
+* [JavaScript Fundamentals]()  
+  WIP
+  
 # Writings
 
 Usually these are my blog posts
