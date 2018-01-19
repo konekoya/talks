@@ -14,7 +14,10 @@ Talks that I've given at various events
 
 * [Visual Studio Code for Everyone](http://slides.com/konekoya/vscode-for-everyone)  
   Getting started using VS Code as your day to day coding editor
+  
+* [Learning as a Dev](http://slides.com/konekoya/learning-as-a-dev)  
+  Share some of my thoughts on how to improve your coding skills as a developer
 
-# Writtings
-* [認識 Chrome 開發者工具](https://github.com/konekoya/talks/tree/master/intro-to-chrome-devtools-triathlon)
-
+# Writings
+* [認識 Chrome 開發者工具](https://github.com/konekoya/talks/tree/master/intro-to-chrome-devtools-triathlon)  
+  This is a 30-day writing teaches you how to use Google Chrome Developer Tools
