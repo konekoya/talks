@@ -21,5 +21,8 @@ Talks that I've given at various events
   Share some of my thoughts on how to improve your coding skills as a developer
 
 # Writings
+
+Usually these are my blog posts
+
 * [認識 Chrome 開發者工具](https://github.com/konekoya/talks/tree/master/intro-to-chrome-devtools-triathlon)  
   This is a 30-day writing teaches you how to use Google Chrome Developer Tools
