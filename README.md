@@ -2,6 +2,7 @@
 
 Talks that I've given at various events
 
+## 2017
 * [Intro to Chrome Developer Tools](http://slides.com/konekoya/intro-to-chrome-developer-tools)  
   A short talk that teachs non-frontend devs how to start using Chrome devTools.
 
@@ -14,7 +15,8 @@ Talks that I've given at various events
 
 * [Visual Studio Code for Everyone](http://slides.com/konekoya/vscode-for-everyone)  
   Getting started using VS Code as your day to day coding editor
-  
+
+## 2018
 * [Learning as a Dev](http://slides.com/konekoya/learning-as-a-dev)  
   Share some of my thoughts on how to improve your coding skills as a developer
 
