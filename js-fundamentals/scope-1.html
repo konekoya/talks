@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JS Fundamentals</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", Helvetica, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Scope 1</h1>
+
+  <script>
+
+    var foo = 'bar';
+
+    function bar() {
+      var foo = 'baz';
+    }
+
+    function baz(foo) {
+      foo = 'bam'
+      bam = 'yay'
+    }
+
+    bar();
+    baz();
+
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JS Fundamentals</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", Helvetica, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>IIFF pattern</h1>
+
+  <script>
+
+    (function ($, global) {
+      var foo = "bar";
+
+      function bar() {
+        var foo = "baz";
+
+        function baz(foo) {
+          foo = "bam";
+          var bam = "yay";
+        }
+        baz();
+      }
+
+      bar();
+
+
+      window.UTILS = {
+        bar: bar,
+        foo: foo,
+      }
+
+    })(jQuery, window);
+  </script>
+
+</body>
+
+</html>

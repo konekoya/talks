@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JS Fundamentals</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", Helvetica, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Scope look-ups</h1>
+
+  <script>
+
+    var d = 24;
+
+    function foo(a) {
+
+      var b = a * 2;
+
+      function bar(c) {
+        console.log(a, b, c, d);
+      }
+
+      bar(b * 3);
+    }
+
+    foo(2); // 2 4 12 24
+
+  </script>
+
+</body>
+
+</html>

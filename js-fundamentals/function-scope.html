@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JS Fundamentals</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", Helvetica, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Function scope</h1>
+
+  <script>
+
+    try {
+      throw "myException";
+    }
+    catch (e) {
+      console.log(e);
+    }
+
+    console.log(e); // referenceError
+
+  </script>
+
+</body>
+
+</html>
