@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Const</title>
+
+  <style>
+    body {
+      font-family: "Helvetica Neue", Helvetica, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <h1>Const</h1>
+
+  <script>
+    // 'use strict'
+
+    // 1. Should assign a value when declared
+    const x;
+
+    // const y = 10;
+
+    // // 2. Can only be declared once in a scope
+    // var y = 50;
+
+    // // 3. Cannot be reassigned
+    // y = 20;
+
+    // 4. const gotcha
+    // const arr = [1, 2];
+    // console.log(arr);
+
+    // arr.push(20, 9)
+    // console.log(arr);
+
+    // with Object.freeze method
+
+    // const arr = [1, 2];
+    // console.log(arr);
+
+    // const _arr = Object.freeze(arr);
+
+    // _arr.push(20, 9)
+    // console.log(_arr);
+
+    // const urls = {
+    //   google: 'https://www.google.com',
+    //   amzaon: 'https://www.amazon.com'
+    // };
+
+    // urls.youtube = 'https://www.youtube.com'
+
+    // console.log(urls);
+
+
+    // Freeze with Object, it works with array too
+    // const urls = {
+    //   google: 'https://www.google.com',
+    //   amzaon: 'https://www.amazon.com'
+    // };
+
+    // const _urls = Object.freeze(urls)
+
+    // _urls.youtube = 'https://www.youtube.com'
+
+    // console.log(_urls);
+  </script>
+</body>
+
+</html>

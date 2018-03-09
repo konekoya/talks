@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Block scope</title>
+
+  <style>
+    body {
+      font-family: "Helvetica Neue", Helvetica, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Block scope</h1>
+
+  <script>
+    'use strict'
+
+    // if (true) {
+    //   var foo = 'foo';
+    //   let bar = 'bar';
+    //   const baz = 'baz';
+    // }
+
+    // console.log(foo); // 'foo'
+    // console.log(bar); // ReferenceError
+    // console.log(baz); // ReferenceError
+
+
+    // Yep, no matter how mmmmmmmany brackets that you have...
+    // { { { { { var insane = 'yes, you are' } } } } }
+
+    // console.log(insane) // yes, you are
+
+    // This creates a new block scope, awesome!
+    // {
+    //   let foo = 'bar';
+    //   console.log(foo); // bar
+    // }
+
+    // console.log(foo); // ReferenceError
+
+
+    // // When nesting, first come, first served
+    // function foo() {
+
+    //   {
+    //     const bar = 'baz';
+    //     console.log(bar); // baz
+    //   }
+
+    //   console.log(bar); // ReferenceError
+
+    // }
+
+    // foo();
+
+    // Let's fix your var
+
+    // for (var i = 0; i < 10; i++) {
+    //   console.log(i); // 0 ~ 9
+    // }
+
+    // console.log('Accessing here', i) // Accessing here 10
+
+
+    for (let i = 0; i < 10; i++) {
+      console.log(i); // 0 ~ 9
+    }
+
+    console.log('Accessing here', i); // ReferenceError
+
+
+  </script>
+</body>
+
+</html>

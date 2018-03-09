@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Best practices</title>
+
+  <style>
+    body {
+      font-family: "Helvetica Neue", Helvetica, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <h1>Best practices</h1>
+
+  <script>
+    'use strict'
+
+    // var, let and const?
+
+    // Using const where possible, it is a signal that the identifier won’t be reassigned.
+
+    // const API_KEY = 'google-map-123kjdsj41';
+    // const API_ROOT = 'https://www.oodata.com.tw/api/v1';
+    // const PI = 3.14;
+    // const module = require('module'); // commonJS
+
+    // using let anywhere else, it is a signal that the variable may be reassigned
+    let isActive = false;
+
+    // more code ...
+
+    isActive = true;
+
+    let user = null;
+
+    if (isReady) {
+      user = {
+        name: 'John',
+        age: 20
+      }
+    }
+
+    // Never use var, `it is now the weakest signal available
+
+  </script>
+</body>
+
+</html>
