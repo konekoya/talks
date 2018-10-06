@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Closure</title>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>JS Fundamentals: Closure</h1>
+  <h1>🍌</h1>
+  <script>
+
+    // Closure example 1
+    // function foo() {
+    //   var a = 2;
+    //   function bar() {
+    //     console.log(a);
+    //   }
+    //   return bar;
+    // }
+    // var baz = foo();
+    // baz(); // Closure!
+
+
+    // Closure example 2
+    // function incremental() {
+    //   var x = 1;
+    //   return function () {
+    //     console.log(x++)
+    //   }
+    // }
+
+    // var foo = incremental();
+    // foo();
+    // foo();
+
+    // Timer example
+    // function wait(message) {
+
+    //   setTimeout(function timer() {
+    //     console.log(message);
+    //   }, 1000);
+
+    // }
+
+    // wait("Hello, closure!");
+
+    // Partial application
+    function addX(x) {
+      return function (n) {
+        return n + x;
+      };
+    }
+    const addThree = addX(3);
+
+    console.log(addThree(4)); // 7
+    console.log(addThree(10)); // 13
+    console.log(addThree(37)); // 40
+
+    console.log('🍌🍌🍌🍌🍌🍌🍌🍌🍌🍌🍌🍌🍌🍌🍌🍌🍌🍌🍌🍌🍌🍌🍌🍌🍌🍌');
+
+
+    const addFive = addX(5);
+    console.log(addFive(4)); // 9
+    console.log(addFive(10)); // 15
+    console.log(addFive(37)); // 442
+
+
+    // Revealing Module or a module
+    // function CoolModule() {
+    //   var something = "cool";
+    //   var another = [1, 2, 3];
+
+    //   function doSomething() {
+    //     console.log(something);
+    //   }
+
+    //   function doAnother() {
+    //     console.log(another.join(" ! "));
+    //   }
+
+    //   return {
+    //     doSomething: doSomething,
+    //     doAnother: doAnother
+    //   };
+    // }
+
+    // var foo = CoolModule();
+
+    // foo.doSomething(); // cool
+    // foo.doAnother(); // 1 ! 2 ! 3
+
+
+    // var foo = (function CoolModule() {
+    //   var something = "cool";
+    //   var another = [1, 2, 3];
+
+    //   function doSomething() {
+    //     console.log(something);
+    //   }
+
+    //   function doAnother() {
+    //     console.log(another.join(" ! "));
+    //   }
+
+    //   return {
+    //     doSomething: doSomething,
+    //     doAnother: doAnother
+    //   };
+    // })();
+
+    // foo.doSomething(); // cool
+    // foo.doAnother(); // 1 ! 2 ! 3
+
+
+    // var counter = (function () {
+    //   var privateCounter = 0;
+    //   function changeBy(val) {
+    //     privateCounter += val;
+    //   }
+    //   return {
+    //     increment: function () {
+    //       changeBy(1);
+    //     },
+    //     decrement: function () {
+    //       changeBy(-1);
+    //     },
+    //     value: function () {
+    //       return privateCounter;
+    //     }
+    //   };
+    // })();
+
+    // console.log(counter.value()); // logs 0
+    // counter.increment();
+    // counter.increment();
+    // console.log(counter.value()); // logs 2
+    // counter.decrement();
+    // console.log(counter.value()); // logs 1
+
+
+    // var makeCounter = function () {
+    //   var privateCounter = 0;
+    //   function changeBy(val) {
+    //     privateCounter += val;
+    //   }
+    //   return {
+    //     increment: function () {
+    //       changeBy(1);
+    //     },
+    //     decrement: function () {
+    //       changeBy(-1);
+    //     },
+    //     value: function () {
+    //       return privateCounter;
+    //     }
+    //   }
+    // };
+
+    // var counter1 = makeCounter();
+    // var counter2 = makeCounter();
+    // console.log(counter1.value()); /* logs 0 */
+    // counter1.increment();
+    // counter1.increment();
+    // console.log(counter1.value()); /* logs 2 */
+    // counter1.decrement();
+    // console.log(counter1.value()); /* logs 1 */
+    // console.log(counter2.value()); /* logs 0 */
+
+  </script>
+</body>
+
+</html>

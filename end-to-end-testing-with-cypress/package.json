@@ -1,0 +1,13 @@
+{
+  "name": "end-to-end-testing-with-cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Joshua Lin (http://konekoya.github.io)",
+  "scripts": {
+    "cypress": "cypress run"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^3.1.0"
+  }
+}

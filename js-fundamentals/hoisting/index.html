@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Fundamentals - Hoisting</title>
+</head>
+
+<body>
+
+  <script>
+
+    //************ Hoisting example 1 ************//
+    // a = 2;
+    // var a;
+
+    // console.log(a); // ?
+
+
+    //************ Hoisting example 2 ************//
+    // console.log(a); // ?
+
+    // var a = 2;
+
+
+
+    //************ Hoisting metaphor ************//
+    // var a;
+    // console.log(a);
+
+    // a = 2;
+
+
+
+    //************ What are Function Declarations and Function Expressions? ************//
+
+    // // Function Declarations
+    // function foo() {
+    //   return `Hi, I'm foo!`;
+    // }
+
+    // // Function Expressions
+    // var baz = function () {
+    //   return `Hi, I'm baz!`;
+    // }
+
+
+    // Differences when hoisting
+    // foo(); // ?
+
+    // function foo() {
+    //   console.log(`Hi, I'm foo!`);
+    // }
+
+    // // baz(); // ?
+
+    // var baz = function () {
+    //   console.log(`Hi, I'm baz!`);
+    // }
+
+    // baz();
+
+
+    //************ Temporal Dead Zone(TDZ) ************//
+    // console.log(foo); // ?
+    // console.log(baz); // ?
+    // console.log(bar); // ?
+
+    // var foo = 10;
+    // let baz = 20;
+    // const bar = 30;
+
+
+    // let x = 'outer value';
+    // (function () {
+    //   // start TDZ for x
+    //   console.log(x); // referenceError
+    //   let x = 'inner value'; // declaration ends TDZ for x
+    // }());
+
+    const x = 'x'
+
+
+  </script>
+
+</body>
+
+</html>
