@@ -12,7 +12,7 @@
   "author": "konekoya <tank158r5155@yahoo.com.tw> (http://konekoya.github.io/)",
   "license": "MIT",
   "dependencies": {
-    "jquery": "^3.2.1"
+    "jquery": "^3.4.0"
   },
   "devDependencies": {
     "webpack": "^3.8.1",
